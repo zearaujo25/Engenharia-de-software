@@ -1,0 +1,46 @@
+O que é software?  PTF = program temporary fix=service pack 
+	
+	Apenas Código,um programa? NÃO!
+	Do ponto de vista de engenharia de software,  o codigo só é uma parte do software . A documentação  é parte integrante disso
+	Para a engenharia de software, é algo profissional, produto.
+	Em suma:
+		Código,documentação,definição de estruturas dados
+
+	-Documentação
+		-Descreve a funcionalidade do programa, além das estruturas de dados (a maneira que eles estao organizados no programa) presentes. 
+		-Por conta de manutenção e legado, é tão importante quanto o próprio código 
+	-Duplo papel: 
+			produto e distribuidor de informação
+	
+	-Sistema(software) batch: 
+		Sistemas com pouco interação com o usuário -----> geração de relatórios  ex: Sistema de backup,CPU intesive	
+												   -----> console do sistema e a unica interação com o usuário
+	-Sistema transacionais: Transação 
+							-------> Alteração  em banco de dados simultaneos  de tal forma que evita a inconsistencia de dados em bancos diferentes em caso de interrupcção na comunicação
+							-------> Commit(FAZ TUDO), rollback(faz nada)
+Perguntas que ocorrem no deselvolvimento de software 
+	Por que concluir um sftware leava tempo?
+	
+	Por que os custos de desenvolvimento dsao tao altos?
+	
+	Por que nao se consegue encontrar todos os erros antes de se entregar o software?
+	
+	por que se gasta tanto esforço para se manter o software?
+
+Por que desenvolver um software é complexo?
+	-è uma outra realiadde. as leias da fisica nao se aplicam , pois é apenas uma receita de bolo, um conjunto de regras
+	-Abstrair um problema para um software é muito difícil
+
+Curva de falhas hardware X software
+	Hardware= Banheira. Fabricação e tempo de uso
+	
+	software= Ideal: Curva tende a zero
+			  Real: Ao se realizar uma mudança no software,há uma chance de inserção de erro. Uma parte da estrutura alterada afetam outras. Quanto mais mudanças, mais erros são inseridos , e com o tempo a tazxa de falhas aumenta 
+	
+Produção de software:
+	-NAO SE DESGASTE
+	-São DESENVOLVIDOS, nao manufaturados
+	- A industria esta cresenco na parte de componentes de software , mas nao substitui a a customização e nao resolve todos os problemas
+		ex: Collections(Java), bibliotecas de outros usuários, etc
+	
+	
