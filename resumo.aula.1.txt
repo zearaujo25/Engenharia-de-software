@@ -43,4 +43,77 @@ Produção de software:
 	- A industria esta cresenco na parte de componentes de software , mas nao substitui a a customização e nao resolve todos os problemas
 		ex: Collections(Java), bibliotecas de outros usuários, etc
 	
+Atributos de um bom software
+	Requisitos
+		O que o software deve fazer aquilo que foi designado
+	Confiabilidade
+		o software não falhar
+	Manutenção
+		Fazer facilmente alterações nos sistemas deve ser algo presado 
+	Funcionalidade
+		Deve ser adequado ao publicos 
+O que é engenharia de software ?
+	Área da engenharia que se preovupa com todos os aspectos na produção de software
+	Grande objetvitos
+		Minimizar custos de desenvolvimenos  para a entrega de um software de boa qualidade 
+Areas da engenharia de software 
+	Especificação----> Planejamento do software, saber o que ele vai fazer 
+		engenharia de requisitos !
+	Desenvolvimento
+		fazer o codigo 
+	Validação 
+		testes
+	Evolução 
+		manter o software em operação 
+A engenharia de software nao se preocupa com a parte teorica da computação, e sim mais na parte pratica 
+
+Engenharia de sistemas--------->Engenharia de software
+		      |
+		      |
+		      |-----> Hardware
+
+A egenharai de software veio para melhorar o processo da produção de software
+
+Desafios
+	Prazo curto
+	Demanda crescente 
+	Diversidade de Aplicações 
+	Deselvolvimento de software 
+
+Custos de um software
+	Em media 60% desenvolvimento e 40% em testes
+
+Desenvolver um software sem usar a engenharia de software pode deixa-lo não profissional . Consequencias 
+	+Custo, estouro de prazo e confiabilidade 
+
+Crise de software
+	Final da decada de 60
+	Representa as diculdades vividas na época do surgimentos da engenharia de softare
+	ex: Custo, prazo, qualidade, requisitos, etc
+Escopo da engenharia de software
+	Trabalha com software proffisional
+	Desenvolvimento em equipe 
+	Lida com multiplos programas ao mesmo tempo frequentemente 
+	Nao se trata de programação de código, mas sim tambem do projeto todo em si. Documentação, elicitação de requisitos (Levantar, 	descobrir )
+Produtos de software
+	Genéricos
+		o usuario se adequa ao software. Feito para vários 
+	Customizados
+		O software se adequa ao usuário. Feito para um
+	nota: Existe softwares meio termos, como a totus e a sap , funciona com base em pacotes prontos para automatizar uma empresa. 
+		ERP's- Sistemas de gestão integrada. Implementa de maniera grossa e adapta com o tempo 
+Aplicações beneficiadas com softwares
+	TODAS as areaspraticamente
+Software legado
+	Software antigo de uma empresa
+	
+	DEcadas de existencia
+	
+	em geral nao tem boa qualidade nem documentação
+	
+	Dependendo do sistema , ainda são vitais para empresa, por isso ainda existem 
+	
+	o que fazer?
+		NADA!!!!!!!!!! 
+		so se tiver muito fodido, tentar fazerr uma reegenharia  utilizando engenharia de software 
 	
