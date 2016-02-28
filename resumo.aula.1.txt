@@ -10,7 +10,7 @@ O que é software?  PTF = program temporary fix=service pack
 		-Descreve a funcionalidade do programa, além das estruturas de dados (a maneira que eles estao organizados no programa) presentes. 
 		-Por conta de manutenção e legado, é tão importante quanto o próprio código 
 	-Duplo papel: 
-			produto e distribuidor de informação
+			produto e meio de se distribuir o produto
 	
 	-Sistema(software) batch: 
 		Sistemas com pouco interação com o usuário -----> geração de relatórios  ex: Sistema de backup,CPU intesive	
