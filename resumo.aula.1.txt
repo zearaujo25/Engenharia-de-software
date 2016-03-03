@@ -116,4 +116,17 @@ Software legado
 	o que fazer?
 		NADA!!!!!!!!!! 
 		so se tiver muito fodido, tentar fazerr uma reegenharia  utilizando engenharia de software 
-	
+Mito ou verdae?
+	MITOS
+		-um livro supri todas as necessidades da equipe no quesito de desenvolver e documentar um software
+		-acresentar mais programadores acelera a a produção do software 
+		-Contratar um terceiro para desenvolver o projeto resolvera os problemas
+		-Ter os objetivos do software definidas supercialmente, levando , muitas vezes, a ambiguidade , é o suficiente para 	iniciar a codificação do projeto (O OBJETIVO DEVE SER CLAROOOOOOOOO!!!!!!!NAO DEFINIR REQUISITOS AMBIGUOS )
+		-Todas as mudanças de diretrizes ao longo do projeto do software são absorvidas ao longo do projeto(Depende do momento da mudança e se o software foi desenvolvido para suportar as mudanas. quanto mais tarde a mudança é feita, mais caro se torna)
+		-O trablaho do engenheiro de software termina com o software sendo colocado em uso. (Software é tudo aquilo que processa, muda, e gera dados. Existe a manutenção posterior )
+		-Não ha determinar a qualidade do programa ao longo do seu desenvolvimento 
+		-O programa em funciponamento é a unica produto a ser entregue. (A documentação é parte integrante do produto , bem como modelos testes, planos etc)
+		-A documentação atrasa o desenvolvimento do projeto (So se estipular o tempo de desenvolvimento se inclui a documentação )
+	VERDADE
+	nao ha verdades
+		
