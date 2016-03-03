@@ -19,13 +19,14 @@ O que é software?  PTF = program temporary fix=service pack
 							-------> Alteração  em banco de dados simultaneos  de tal forma que evita a inconsistencia de dados em bancos diferentes em caso de interrupcção na comunicação
 							-------> Commit(FAZ TUDO), rollback(faz nada)
 Perguntas que ocorrem no deselvolvimento de software 
-	Por que concluir um sftware leava tempo?
-	
-	Por que os custos de desenvolvimento dsao tao altos?
-	
-	Por que nao se consegue encontrar todos os erros antes de se entregar o software?
-	
-	por que se gasta tanto esforço para se manter o software?
+	Crise do software	
+		Por que concluir um sftware leava tempo?
+		
+		Por que os custos de desenvolvimento dsao tao altos?
+		
+		Por que nao se consegue encontrar todos os erros antes de se entregar o software?
+		
+		por que se gasta tanto esforço para se manter o software?
 
 Por que desenvolver um software é complexo?
 	-è uma outra realiadde. as leias da fisica nao se aplicam , pois é apenas uma receita de bolo, um conjunto de regras
