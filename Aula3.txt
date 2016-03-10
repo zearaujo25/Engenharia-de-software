@@ -1,0 +1,175 @@
+﻿As coisas erradas um dia aparecem
+Stakeholder
+	tudo o que e quem que esta relacionado ao sistema de alguma forma, como o sistema, o cleinte os usuariso, as normas de segurança 
+processos tradicionais(aula 2, cascata,incremental,evolucionario)
+	caros
+	documentação extensa 
+	equipes distribuidas, cada parte se isola 
+	
+metodos ageis
+	Evitar o Stress
+	Bom com requisitos , ou regras de negocio, que sao volateis e nao muito precisos 
+	Parte do principio que o cliente tem disponibilidade e tem interesse pelo menos nas fazes iniciais
+	Exitesm varios
+		XP(Primeira que surgiu e mair importante)
+		SCRUM (mais utilizada)
+		Crystal
+		DSDM
+		FDD
+		LSD
+		etc
+	objetiovos
+		Produzir rapido .
+		REDUZIR CUSTO, DOCUMENTACAO e tempo de produção. Fazer aquilo
+		Prioriza o tempo de entrega
+		foco na equipe 
+		eliminar "gordura", perfumarias 
+	
+	Principios(Sommerville)
+		Apresenta alguns riscos 
+		envolvimento do clieten, ele faz parte do projeto. Opina nos incrementos atraves de FEEDBACKS
+		entrega incremental, requisitos adicionmais vao sendo absorvidos ao longo do tempo de acordo com o usuario 
+		leva-se muito em conta a equipe , sua relaçao, motivação , etc
+		Valoriza muito mais as pessoas que o processos
+		TODA A EQUIPE trabalha junto desde o iniciop do projeto 
+			O desenvolvedor trabalha junto do gestor
+		Trabalha com conceitos de programas incrementos.
+		simplicidade 
+		FAÇA APENAS O NECESSARIO PARA TORNAR O SOFTWARE SIMPLES
+			simples nao é mal feito 
+		Apresenta alguns risco, por fugir da formalidade 
+		GERAR CODIGO
+		Todo dia tem reuniao 
+		CONTATO CONSTANTE
+	Manifesto Ágil 
+		Documemnto com os conceitos do desenvolvimento agil 
+		Valoriza-se masi as pessoas que os processos
+		Valoriza-se masi o codigo em funcionamento que a documentação 
+		valoriza-se mais a participação do cliente que o contrato. O cliente faz parte do projeto
+	Desenvolvimento rápido de software 
+		A fase de especificação , o projeto e a impplementação se intercalam 
+	Aplicabilidade dos métodos ágeis
+		Quando não usar? 
+			Quando a documentação deste projeto é foco
+			Projetos massantes, sistemas massantes, sistemas com uma grande divrsidade
+			Quando o cliente nao querer participar do projeto
+			Equipes fragmentadas, ou uma equipe integrada 
+			Quand taem necessidade de atender normas por exigir documenta;'ao 
+		Quando usar?
+			A documentacao for um pouco mais informal 
+			projetos simples
+			equipes nao muito grande
+				MAx 10 pessoas
+			projeto nao muito grande
+	Problemas com os metodos ageis 
+		As vezes o cliente pode estar tao presente 
+		Membros da equipes podem nao estar tao presentes
+		Manter a simpicidade pode ser dificil 
+		O contrato, mas nao e tao comum por que o cliente esta sempre presente com a equipe, o cleinte faz parte da equipe 
+	Comentarios e questoes 
+		Nao tem documetnacao formal
+		Se precisar de documentacao detalhada, melhor metodos classicos
+		Entrga rapida, metodo agil 
+		Sistema muit0 grande, classcos
+		Sistema  criticos, com rigidez de documentacao, metodos classicos 
+		Sistemas com longo tempo  de vida, 
+		Equipe fragm3entada, metodo classico 
+		As vezes a cultura da emrpesa pode impedir aplicar o metodo agil 
+		A equipe inteira esta muito ligaa, as funcoes nao nao ficam muito restritas, todos participam ativamente do codigo
+		Projeto grande melhor classicos 
+
+Metodo XP (Extreme Programming)
+	primeiro do mercado
+	A cada duas semanas, um incremento e entregue 
+	Os teste ja sao pensados antes do desenvolvimento ou da escrita de teste. O teste surge antes do codigo 
+		--------->Desenvolvimento orientado a testes <--------
+	Programador trabalha como analista
+	Os cenarios, as historias que o cliente contar , gerarao os requisitos
+	TODA SEMANA o cliente deve validar o que foi feito 
+		O cleinte deve estar disponivel no projeto 
+	Desenvolvimento em pares 
+		o codigo nao e propriedade de ninguem 
+		Utiliza a tecnologia da oreintacao a objetos 
+	Caracteristicas	
+		O codigo deve ser clean, simples, de facil entendimento 
+		A equipe procura trabalhar amigavelmente com os clientes
+		Refactoring 
+			Refinamento , melhoramento dop  codigo. usa o reuso
+	Valores
+		Simplicidade,
+			Trabalhar com frameworks
+				Estruturas de classes e codigo que irao facilitar o trabalho em certo segmento 
+					ex:Struts,JDBC,SPRING,JSF,PRIME FACES e RICH FACES (bibliotecas), SWING
+			Trabalhar com o essencial 
+			A equipe dee dominar a linguagem de progarmacao 
+			ABOLIR funcoes poucos executadas
+		Feedback
+			Respostas rapidas do usuario , podendo ser ate semanal  
+		Comunicacao essencial
+			em metedologia formal, a comunicacao principal sao os documentos
+			em metodo agil, e olho no olho, fala na cara vagabunda, reunioes de 15 minutos 
+			Apos gerar o codigo que se gera o documentacao 
+		Coragem e respeito 
+			Deve haver coragem para aplica todos os conceitos e praticas do XP
+	ciclo de um release(incremento)
+		1.Selecionar historias do usuario para este release 
+		2.dividir a historia em tarefas
+		3.Planejar release 
+		4.Desenvovler, integrar, testar o software
+		5.Liberar o software 
+		6.Avaliar sistema 
+		7.Ir para 1
+	Praticas do XP
+		Planejamento incremental
+		Pequenos releases
+			conjunto minimo de funcionalidades e o primeiro releae. as melhores vao para os outras versoes
+		projetos simples
+		desenvolvimento test-first
+			a partir de testes que se desenvolve
+		PROGRAMACAO EM PARES
+		o codigo e propriedade coletiva
+		Ritmo sustentavel
+			tenta evitar o excesso de trabalho com essas praticas
+		CLIENTE PRESENTE
+	
+		Cenarios de requisistos
+			conjunto de historias, tipo um CASE de dinamica de grupo, e , a partir desse case se define os requisitos. Depois se prioriza alguma funcionalidade do software
+		Refatoracao
+			Refinamento do codigo 
+			Revisao do codigo e procura reaproveitar codigos antes ja utilizados em outros programas, eliminando trabalho redundante 
+		Automacao de testes
+Scrum
+	cada atividade ela ocorre em tarefas que sao chamadas de sprint 
+	backlog
+		atividades que serao desenviolvidas pela equipe
+	Sprint 
+		unidade de trabalho
+		dura 2~4semanhas 
+	Reuniao diara de acompanhamento 
+		dura 15 minutos
+	Tres fases
+		planejamento
+			Grande participacao do cliente
+			o que sera feito, as atividades qeu serao feitas. lembra engenharua de requisitos
+		Ciclos de Sprint 
+			Scrum Master 
+				Como se fosse um gerente de projetos. cuida da equipe 
+			P.O 
+				Project owner 
+				Pode ser o cliente ou pode ser alguem da equipe que faca o link com o cliente(+normal
+			tarefas que correspondem a uma versao do software. a cada ciclo e um incremento do software
+			A cada ciclio, um novo release
+		Fase de Implementacao 
+			Entrega uma documentacao 
+	Fluxo de processo
+		Evolutivo por causa dos ciclos de sprint 
+	Trabalho em equipe 
+		Scrum Master
+			lider do projeto 
+			quem organiza as reunioes, tipo um gerente 
+			Toma algumas decisoes
+			Motiva e impulsiona a equipe 
+		P.O 
+			Faz a pont ecom o cliente.
+			quem conhece o negocio
+			sabe priorizar as atividades de backlog 
