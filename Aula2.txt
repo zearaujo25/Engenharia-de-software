@@ -1,0 +1,121 @@
+﻿Lição de casa: Pesquisar norma IEEE 610.12(glossario: lista de definições e seus significados. Muito importante se fazer um para a engenharia de softawre)
+Unidade 2- Processos de softwares 
+	A engenharia de software utiliza diversos métodos para produzir um software. Com a crise de software, foi necessario pensar em metodologia de se criar software
+	
+	Processo de software	
+		Metodologia para a criacao do software. Conjutos de instruções,de atividades,  para o desenvolvimento de softawre. A sequencia de atividades corrensponde ao processo.
+			Há uma hierarquia de processos e atividades, contendo Grandes atividades compostas por ações que sao compostas por tarefas
+				Atividade
+					esforço complexo par um um objetivo amplo
+					ex: Especificação de requisitos, projeto de softawre
+						
+						Especificação
+							Determina asfunções do software, a razão de ser do software, as restrições 
+						Projeto e implementação
+							Projeto é onde se constroi os modelos, define fisicamente a aplicação, a linguagem
+						Validação 
+							Verificar se os requisitos estão implementado. Fase d etestes
+						Evolução 
+							Manutenção do softawre
+				Ação
+					o conjunto de ações compoe uma atividade.SubAtividades
+					ex : Elicitar,levantar,determinar os requisitos.Projeto de interface 
+				Tarefas
+					pequenas realizações que compoe uma ação
+					ex Protótipo de interface 
+			Fluxo de software(fluxo das atividades)
+				Maneira que o software será produzido, se sequirá uma cadeia de processo, se seu desenvolvimento será linear ou nao. Como as ATIVIDADES serão realizadas ao longo do tempo
+					Fluxo Linear
+						As atividades seguem um caminho unico, nao ha repetição delas 
+					Fluxo iterativo
+						As atividades se repetem em um laço 
+					Fluxo evolucionario
+						É um ciclo de atividades. A cada ciclo algo é liberado, e um novo ciclo, visando a melhoria, se inicia , repetindo tudo. 
+					Fluxo Paralelo 
+						Realizações de atividades de maneira paralela. Pipeline 
+			Diferença entre a engenharia de software e o processo de software
+				A engenharia de software leva em conta, além das atividades, os métodos e as ferramentas utilizadas
+					Processo --------> Base para a engenharia de software 
+						Conjunto de atividades, todas as tatividades envolvidas em um processo. Passo a passo no desenvolvimento do software e sua manutenção.Framework
+						Flexibilidade----> Todos os tipos de software irá seguir a risca o processo. Ele deve ser flexivel 
+						ex: REceita de bolo
+					Método(Como, How to )
+						Maneira pela qual cada atividade será realizada. Como será feita aquela atividade
+						ex: Como lidar coom as receitas do bolo 
+						Não existe um método universal para o desenvolvimento do software, mas existem principios
+					Ferramentas(CASE=Computer Aided Softwawre Engineering )
+						O software, o treco que irá auxiliar o desenvolvimento. o software que 
+						ex: Panela, clher, etc
+		Principios que se aplicam a TODOS os softwares
+			-Controle do deselvolvimento do software, uma gerencia ----->Gerencia de projetos. Define custos, prazos etc
+			-Confiabilidade ,qualidade
+			-Especificação de requisitos
+			-Reuso. Utilização de componentes de softwares ja existentes
+			-Diversificação de software . Considerar as plataformas existentes 
+			-Volatilidade do negocio.(O software deve ser manutenivel, dever )
+		Modelos de processo de softawre
+			Correspondem aos paradigmas de deselvolvimento de softawre(Forma de pensamento)
+					Modelo Cascata(ou Ciclo de vida)
+						Primeiro paradigma (DEcada de 70)
+						Os requisitos são muito bem conhecidos. parte do principio que o usuario sabe muito bem o que quer 
+						Abordagem sequencial e sistemática , fluxo de processo sequencial (Planejamento, modelagem,construção implementação, entrega ao usuário e manutenção)
+						Possui esse nome pois cada fase gera um produto para a proxima fase 
+						As atividades fluem como uma casacata
+						Principais atividades
+							-Levantamento de requisitos. Funcionalidades e restrições de softawre
+							-Projeto
+							-Implementação e teste de unidades 
+							-Integração e testes de sistemas
+							-Operação e manutenção
+						Vantagens
+							Se os requisitos estão bem definidos , claros e estáveis  não haverá surpresas na hora da modelagem 
+						Desvantagens(Desafios)
+							É engessado, se houver uma mudança de requisitos é muito dificil e caro de se adaptar o software 
+							Uma fase so podera começar se a anterior for concluida 
+							Só haverá uma versao para o usuario no final do projeto. usuario tem que ter paciencia 
+							Com as volatilidades dos negocios e a falta de tempo dos usuarios, é o menos usado hoje em dia 
+					Modelo Incremental 
+						Os requisistos também são razoavelmente bem conhecidos
+						o software é liberado aos poucos, em partes, em incrementos, o projeto é particionado, partes do sitemas 
+						O usuário se envolve mais no projeto 
+						Diferentes partes do software são desenvolvidas em paralelo 
+						Fluxos paralelos e sequenciais 
+						Equipes pequenas podem desenvlver o software aos poucos, sendo que as equipes podem se desenvolver e se flexibilizar 
+						cada incremento é um produto 
+					Modelo Evolucionario 
+						O software evolui com o tempo, ou seja, ele se adapta as mudanças de requisitos 
+						Leva em conta mudanças dos requisitos 
+						Fluxos de processo iterativos 
+						Prototipação 
+							Usada quando nao se tem um noção clara dos requisitos, eles nao sao bem determinados
+							Solução: Protótipo
+								Um software que irá simular o que o software irá fazer
+								Um software rápido 
+							Ajuda a compreender melhor o sistema a ser construido 
+							o usuario avalia os prototipos 
+							O software normalmente nao tem qualidade como foco 
+							O usurario pode ter a ideia errada do software
+						Modelo Espiral
+							Trabalha com versoes.
+							Realiza um ciclo, a cada ciclo o software muda e se incrementa
+						Rational Unified Process (RUP)
+							Desenvolvido junto com a UML 
+							Modelo de processo de software voltado a orientados a objetos 
+							Possui iteração em TODAS as fases  , logo e evolutivo
+							recomenda boas praticas(oreintação de objetos, trabalhar em uml, etc)
+							fases
+								Incepção 									
+								Elaboração 
+								Construção 
+								Transição 
+					Model orientada a reuso
+						trabalha em conjunto com os outros paradigmas 
+						Procura utilizar funcionalidades ja prontas
+						REUSO de componentes de softwares 
+						Problemas: Interações entre sistemas diferentes
+						Etapas
+							Analise de componentes.
+								A partir da especificação, pesquisar componetens que possam implementa-las 
+							Modificação de requisitos 
+								Dependendo, se o o componetne nao tem uma boa interação, pode se adaptar os requisisto 
+					

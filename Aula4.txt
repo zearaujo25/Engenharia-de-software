@@ -1,0 +1,129 @@
+Aula 4- Capítulo 5 Pressman- Engenharia de requisitos ;Cris , Claus, fundamentos de engenharia de requisitos 
+
+Quais situaçoes um projeto de software é bem sucedido?
+	Prazo comprido
+	Custos dentro do planejado 
+	Software agregou valor ao negocio
+	As especificações foi atendidos 
+	funcionalidade foi atendida 
+	Os requisitos foram bem levantados e bem atendidos 
+Isso sempre ocorre?
+	NAO! 40% a 60% dos problemas que ocorrem no software tem origem nos REQUISITOS--->Define a funcionalidade e restricoes do software, itens de qualidade , etc
+	Ou seja, os requisitos tem um impacto gigante nos projetos 
+	Uma pesquisa da força aerea americana revela que 41% problemas de software estao nos requisitos 
+Quais as consequencias de um software com requisitos mal levantados?
+	O software nao ira atender todas as funcionalidades que o usuario precisa
+	afeta 
+		qualidade
+		custs
+		prazos
+
+Como desenvolver um bom processo de requisitos ?
+	ENGENHARIA DE REQUISITOS 
+		Envolve a tecnologia 
+		envolve o negocio 
+	Aplicar tecnicas de levantamento e analise de requisitos 
+	É necessário CONHECER o negócio para no minimo conversar adequadamente com usuario!!!!
+	Levantar bem as necessidades do usuario 
+	OS REQUISITOS DEVEM SER FEITOS JUNTOS COM OS USUARIOS 
+Impacto dos requisistos nos custos de software
+	Quanto mais tarde um erro no requisito é descoberto , mais caro se torna para repara-lo
+	O custo do requisito ele aumenta a proporção do avanço do projeto 
+	Pode chegar até 200 vezes o valor do requisito 
+O que é um requisito ?++++++++++++++
+	existe uma norma do IEEE que define requisito 
+	é uma definição clara sem ambiguidade precisa das FUNCIONALIDADES dos sistemas. oque faz, as funcoes dos sistemas , etc 
+	Uma confdicao ou capacidade que deve ser alcançada ou estar presene em um sistema para satisfazer um CONTRATO
+	primeiro documento de grande importancia dos requisitos : ESPECIFICAÇÃOS DOS REQUISITOS 
+	Requisito tem que ser escrito. So nao se documenta o requisito quando o software e simples, ou se e proximo do cliente , etc
+Problema da pedra
+	o usuario nao consegue tranmitir tudo que quer de um servico . problema de comunicacao. nao houve uma boa elicitação dos requisitos e o usuario nao colaborou
+Problemas
+	o desenvovlimento tem que ser certeiro prazos
+	comunicação cliente e prestador de servico 
+	Times grandes para conciliar 
+
+A especificaçao de requisitos tem que levantar o numero de informaçoes maximas antes de desenvolvimentos , erros que podem ocorrer, plataforma que o sistema ira rodar, etc
+
+Seu software ira falhar nos detalhes. Tem que pensar em todos os detalhes nos requisitos!
+
+O que é engenharia de requisitos?
+	É uma engenharia , sub categoria da engenharia de software 
+	A engenharia de requisitos e um processo de engenharia que leva em conta todas as atividdes necessaria para levantar, analisar, validar requisitos 
+	É uma abordagem SITEMÁTICAS, ou seja, ha atividades muito bem definidas no processo
+	certificação :CPRE-FL adminitrada pela IREB
+
+Quais sao as principais fontes para se levantar requisitos?
+	STAKEHOLDERS, 
+		todos os envolvidos,relacionados de alguma forma no projeto , normas, pessoas, organizações,sistemas 
+	tudo o que afeta o requisito de forma direta ou indiretamente 
+Qual o impacto de nao se leva em conta todos os stakeholders ?
+	o software irá ficar incompleto!!
+	os REQUISITOS irão se fragmentar 
+	La na frente o software ira ter que ser revisto, compromentendo os custos e os prazos
+	Os stakeholders devem ser documentados 
+Atividades centrais da engenharia de requisitos 
+	Planejamento(concepcao)
+		necessidade dos negocios
+	Elicitação 
+		levantamento dos requisitos 
+	analise
+		modelagem dos requisitos 
+	negociacao 
+		trataros conflitos de requisitos 
+	Documentacao,espeficicaçao 
+	validacao 
+		eliminar a ambiguidade , inconsistencia , conflitos entre requisitos 
+	Gestao
+Perfil de um engenheiro de requisitos 
+	nao e um perfil tecnico , e ponte entre o o usuario a equipe de desenvolvimento. Alguem comunicativo 
+Como a engenhria de requisitos é incorporada nos modelos de processo de software?
+	modelo cascata
+		fase inicial 
+	modelo evolucionario 
+		ele acompanha todo o processo, pois os requisito nao e totalmente conhecido, tratado de maniera iterativa
+Importancia da comunicação 
+	TODO O REQUISITO TEM QUE SER COMUNICADO 
+	o usuario pode comunicar o requisito de diversas formas 
+		linguagem natural: em uma reuniao 
+	quando se define requisito nao se utiliza apenas texto , mas tambeem grafica. UML
+	requisito nao pode ter ambiguidade
+
+	
+	Quais os tipos de requisitos 
+	requisito funcional 
+		o que o software ira fazer
+	Requisitos nao funcionais (ou de QUALIDADE)
+		Desempenho, por exemplo 
+		sao quantificaveis
+		escalabilidade
+	Restrição 
+		algo que e imposto a equipe e ela nao tem como tratar isso 
+		nao podem ser infleunciadas pela equipe de desenvolvimento
+		
+Contexto do sistema(software)
+	Area do ambiente que tem com relacionamento com o sistema que voce esta desenvolvendo 	
+	parte de inlfeuncia do sistema 
+	Todo stakeholder faz parte do contexto do sistema 
+	o contexto do sistema sao os stake holders um pouco mais especificados.
+	representacao grafica dos principais satakeholders, especificando eles 
+	Parte irrelevante, elementos que nao afetam o sistema ou nao interagem com o sistema
+		As vezes o é necessario especificar os limites do seu sistema 
+Limite do sistema e limite do contexto são diferentes (lembrar da figura)
+Como documentar o contexto do sistema?
+	UML(Diagrama de casos de uso) 
+	analise estruturada
+		+antigo
+		analise orientada a fluxo de dados
+			como os dados do software sao transformados 
+			diagrama de fluxo de dados
+		usada como complemento junto com o UML
+		Diagrama de fluxo de dados
+			Diagrama de contexto 
+				primerio diagrama a ser feito pelo engenheiro de requisitos
+				chamado de dfd de nivel zero por estar na mcamada mais alta, mais abstrata do fluxo de dados
+				caso particular no diagrama de fluxo de dados
+				o sistema e represantado por uma bolha 
+				entidades externas ao sistema sao representadas por retangulos 
+				representa as informações que entram e que saem do sitema 
+				
