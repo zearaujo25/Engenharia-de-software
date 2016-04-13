@@ -1,0 +1,115 @@
+Unidade 6 - Modelagem de Software 
+Comportamentos de softawre
+	Sao as acoes , os estadso , o  que o software faz 
+Coesao
+	quando se faz uma funcao que eela sozinha define muito bem a funcao que ela se propoe a fazer. uma funcao assim e altamente coesa 
+	quadno uma funcionalidade esta muito bem definida
+Acoplamento 	
+	quando uma funcao esta ligada a outra funcao. Há um alto acoplamento
+	
+	
+	
+	
+	
+O que é modelagem de software? para que serve 
+	representar o software de uma maneira grafica, diagramatica. Significa escreverum texto ou desenhar um diagrama que vai indentificar aquele software
+	É muito mais facil de analisar o software com sua modelagem em maos 
+	O modelo é um equivalente para o código. O modelo e um representacao do software
+
+Tipos de modelagem 
+	Prescritiva
+		Antes escrever o codigo (Desenvolvimento )
+	Descritiva 
+		Depois de escrever o codigo (Manutencao )
+	É um esforço dobrado modelar e codificar?
+		NAO!! POIS O SOFTWARE É ALTAMENTE MUTAVEL. A MANUTENCAO E EXTREMAMENTE IMPORTANTE PARA O SOFTWARE. SEM UMA BOA MODELAGEM 
+		A MANUTENCAO DESTE SOFTWARE SERA PREJUDICADA CASO NAO HAJA UMA BOA MODELAGEM 
+		O SOFTWARE E FEITO EM EQUIPES, SEM A MODELAGEM A TROCA DE INFORMACOES ENTRE OS MESMBROS E PREJUDICADA 
+		O PROBLEMA E ENTENDIDO DE UMA MANEIRA MELHOR AO SE MODELAR. AJUDA NA CONCEPCAO DO SOFTWARE, NAO E SO UMA DOCUMENTACAO 
+		SO PENSAR NAS OUTRAS ENGENHARIAS 
+
+Quando usar a modelagem de software?
+	Projetos muito grandes, quando os o software e muito simples , nao exige uma complexidade muito grande 
+	Serve para fazer o planejamento do codigo 
+
+Processo de desenvolvimento de software 
+		Levantamento de requisitos 
+			nem sempre sao muito claros , uma vez qu eo proprio usuario nao sabe o que querer do sistema 
+		Modelagem 
+			Os requisistos vao ifacando mais claros ao longo de sua modelagem 
+O que e um modelo?
+	representacao abstrata de uma realidade , que pode existir ou nao. O produto pode existir ou nao 
+Vantagens da modelagem 
+	modelagem ajuda a entender melhor o sotware
+	auda na manutencao 
+	mais proxima de como as pessoas pensam, e nao das maquinas. Mais proxio do "natural"
+	Pode trazer niveis de abstracao , mais proximos ou mais distantes do nivel da maquina,podendo  mostrar o comportamento do software
+
+Boas praticas de modelagem 
+	O grande objetivo e gerar codigo , a modelagem é apenas uma meio para isso. Tornar a modelgaem simples!
+	Nao cria mais modelos que o necessario 
+	Os mdeolos tem que se atualizar juntos com as versoes do software 
+	AS vezes as regras sintaticas podem ser quebradas para que o modelo se torne mais facil entendimento 
+	O modelo tem que ser revisado 
+
+Classes de modelagem 
+	Modelagem de requisistos
+		ajuda a entender o software, entender o  que o usuario quer do sistema, ao que o usuario deseja
+		Na pratica invade um pouco a modelagem de projeto
+	Modelagem de projeto 
+		Ja se pensa na solucao que sera implementada no computador
+		se pensa na aruqitetura do software, na interface , nas telas 
+		Se pensa na solucao que o software ira oferecer
+	Há uma area comum compartilhada entre as duas modelagens. Na pratica as duas estao sempre conectadas 
+
+Principios da modelagem de requisitos 
+	É importatne conhecer os dadso que o sistema ira manipular. Saber os dadso que fluem e os dados que serao persistentes
+	Estrageia divisao e conquista 
+		O software inicialmetne é uma bolha, onde um dado irá entrar e outro irá sair. 
+		Depois dividir a bolha em bolhas menores mostrando comos os dadso sao tranformados (perspectiva funcional)
+	Funcoes devem ter alta coesao e baixo acoplamento.
+	ver mais no livro 
+
+Elementos da modelagem de Requisistos , os quatro grandes modelos 
+	Elementos baseados em cenarios 
+	Elementos baseados em classes
+	Elementos Comportamentais
+	Elementos orientados a fluxo de dados
+	Nao necessariamente e necessario usar todos os modelos
+	
+Modelagem baseada em cenarios
+	O softawre e encarado como um conjutno de cenarios que indentifique um roteiro de uso para o sistema ser construido 
+		Os cenaros sao chamados de caso de uso 
+	Mostra o software na perpectiva do usuario 
+
+Modelagem baseada em classes
+	Se faz o diagrama das classes 
+Modelagem Comportamental 
+	mostra o comportamento do softawre em tempo de execucao (Diagrama de estados na UML, e diagrama de sequencia)
+Modelagem orientada a fluxos 
+		Mostra o fluxo de dados. comos os dados se comportam, se alteram no sistema. como a informacao flui ao longo do sistema (Diagramas de fluxo de dados)
+O que se precisa para se fazer uma boa modelagem 
+	conhecer engenharia de software 
+	conhecer paradigmas orientado a objetos 
+	conhecer os diagramas 
+	sempre trabalhar de modo iterativo 
+	A modelagem nao e um fim, e sim um meio 
+	O modelo tem que representar o software de maniera fiel. bater o olho no modelo deve se entender 
+
+Modelagem estatica
+	mostra a estrutura do software, as classes
+	uma fotografia 
+Modelagem dinamica
+	representa o software em execucao , ele rodando
+	um video 
+UML
+	liguagem nao é nova 
+	Tem varios diagramas 
+	Diagramas estruturais 
+		mais relacionados as classe 
+			de pacote, de classe de objeto , etc
+			o de calsses sao os mais usados 
+	Diagramas de comportamento 
+		mostra o software em execucao 
+			Diagrama de caso de uso , de estados , de atividade de sequencia sao os mais usados 
+	

@@ -1,0 +1,46 @@
+Aula 7 - Modelagem de casos de uso 
+É a modelgaem sob a perspectiva do usuario 
+Esta relacionado aos requsiitos funcionais (aqueles associados as funcoes do software)
+Software: Astah , Visio, Argo UML,ibm tem tbm
+Na UML se utilza um diagrama de casos de uso 
+	Representacao grafica das funcionalidades do software, de suas funcoes 
+	As vezes uma funcao do sistema acarreta no uso de outra funcao 
+
+Qual a importancia do diagrama de casos de uso ?
+	Todos os envolvidos no projeto utilizam este diagramas. 
+	É praticamente obrigatorio 
+
+Qual os elemtnos do diagrama de caso de uso? quais sao seus elemtnos?
+	Atores 
+		Papel representado por um usuario 
+		Todo ator representa um papel 
+		Representamo os papeis desempenhados pelos diversos ususarios do sistema 
+		Represendo por um stickman
+	Casos de uso
+		São as funcoes do sistema 
+			O QUE ele faz, nao COMO eles fas
+		Representada por uma elipse
+	Relacionamento entre atores e casos de uso (Associações)
+		tres assiciacoes:
+			inclusao 
+				define uma OBRIGATORIEDADE
+				Ocorre quando um caso de uso obrigatoriamente dispara outro caso de uso 
+				representada por uma linha tracejada com <<include>> na linha. A seta aponta para a funcao chamada 
+			extensao 
+				Indica OPCIONALIDADE
+				Existe uma determianda condicao ligando os casos de uso
+				A funcao executada so sera realziada se uma dada condicao for realizada 
+				Linha pontilhada com o esteriotipo <<extends>>
+				O sentido da seta sempre aponta para o caso de uso principal , por causa do sentido de consequencia 
+				O diagrama de caso de uso nao mostra essa condicao de ativaçao 
+				A condicao é colocada em um documento chamado de documentacao do caso de uso
+			generealizacao
+				Casos de uso generico X Casos de uso especializados 
+					Consegue definir casos de uso mais genericos e especializados, o que facilita o reuso do codigo
+					setas cheias
+				Atores Genericos x Atores Especificos
+					setas cheias 
+		Uma linha reta liga o caso de uso ao ator 
+	Como documentar um caso de uso ?
+		
+		

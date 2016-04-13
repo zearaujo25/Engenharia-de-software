@@ -1,0 +1,148 @@
+﻿Aula 5  
+
+Capitulo 4
+	O engenheiro de requisitos tem que saber fazer perguntas. saber ver todo o contexto.
+	Elicitação de requisisots 
+		uma das fasees da engenharia de requisitos. É a fase de levantamento de requisitos 
+		Elicitar requisistos significa descobrir quais sao os requisitos do sftware 
+		Parte tao ou mais importante que a parte tecnica 
+		Base para se definir o requisisto :
+			Precisa se conhecer o contexto do software 
+				Todos os stakeholders mais especificados , documentos, TUDO conectado ao software, desde documentos , outros softawres , hardware , etc
+		Fontes de requisitos 
+			Usuarios 
+				como indentificar ?
+					Todo o sistema tem um usuario centralizador, o usuario principal do sistema 
+					Frase para o ususario centralizador : Com quem mais voce acha que eu deveria conversar?
+				Como lidar? 
+					exisetem usuarios que assumem uma postura critica , dificil.
+					Se nao der uma devida atencao ao ususrio ele assume uma postura critica 
+					Recomenda-se firmar acordos formal, gerarum documento onde o usuario esta tendo uma responsabilidade comum com voce na hora de se implementar o sistema
+			Documentos (nao so tecnicos mas que te ajudam a conhecer o negocio do sistema)
+			Sistemas em operacao 
+		Perfil de engenheiro de requisitos 
+			Falar a linguagem do usuario 
+			Conhecer o dominio da aplicação(conhecer o negocio !)
+				ESTUDAR O NEGOCIO 
+			Ser capaz de documentar , modelar , o software (UML ou outros!!)
+			Avaliar sugestoes do usuario 
+		Tecnicas de levantamento de requisitos 
+			Modelo de Kano 	
+				usado na qualidade mas adapatado para o software
+				Se preocupa com a satisfacao do cliente 
+				considerea alguns fatores que irao definir a qualidade para o cliente 
+					fatores subconscientes (obvios)------->+importante
+						nem fala para voce por ELE achar obvio
+					fatores conscientes------> +importante
+						Fatores que o usuario espera do sistema , é mais ou menos o que ele especifica 
+					fatores inesperaados ou inconscientes---------->+dificil de se alcançar por ser desconhecido pelo usuario.é um "plus"
+						Algo que surpreende de uma maneira boa o usuario , fatores ocultos que o usuario nem imaginava que o sistema abrangeria 
+			Contato  com o usuario 
+				entrevista com os usuarios
+					melhor feddback
+					Mas muitas vezes o tempo para reuniao atrapalha. alguns usuarios nao tem tempo
+				questionarios
+					mais rapido
+					Mais barato
+					mas sem feddback
+			Tecnicas de criatividade
+				Ajudam a descobrir os fatores ocultos, inconscientes
+				Braistorm 
+					joga os usuarios e todo mundo vomita ideias 
+				BrainWriting (ou 6-3-5)
+					6 pessoas escrevem 3 ideias cada , trocam se o s papeis e repete-se
+				Mudança de perspectiva(tecnica dos 6 chapeus)
+					6 chapeus cada um com uma cor . cada chapeu representa uma personalidade. a cada troca de chapeu deve-se assumir a personalidade daquele chapeu 
+				Trazem ideias que nao haviam sido combencidos no sistema, coisas que nao foram nem consideradas 
+			Especificaçao de requisistos 
+				documentacao de requisitos ela forcosamente tera um texto escrito , porem este metodo pode apresentar problemas de interpretação 
+				na pratica ela nao e feita apenas com textos escritos, mas tambem MODELOS
+				modelos
+					graficos que ajudam a modelar os requisitos 
+					ela ira retratar o software em diferentes camadas de abstracao 
+					Há um menor grau de ambiguidade 
+				documentos escritos que jjuntamento com modelos graficos e prototipos que irao definir os requisitos do sistema
+				prototipos 
+					podem ser descartaveis ou nao descartaveis 
+				Possui uma importancia de ordem legal 
+				Quem tem acesso?
+					toda a equipe de projeto 
+				Há uma ordem, topicos para se documentar os requisitos (slide)
+					Negociação de requisitos 
+					validacao dos requisitos 
+						ira verificar a situacao dos requisitos, se sao realizaveis, se tem conflito, ambiguidade, entre outros, a qualdiade do sistema 
+				Uso do documento de requisitos 
+				Definir em frases curtas. cada requisitos tem que ter uma frase 
+				Glossario: lista dos termos desenvolvidos no software 
+					
+				
+Capitulo Slide do professor - Conceitos de orientacao a objetos 
+	Antes(decada de 70)
+		foco era na transformacao dos dados
+		paradigma estruturado 
+	Hoje oop 
+		O focos esta nos dados 
+		Encapsulamento 
+			propridade onde os dados nao sao acessados diretamente por uma funcao (private)
+			uma funcao fora das classe nao consegue trabalhar com este tipo de atributo 
+		Maneira totalmente diferente de se pensar 
+		Toddas as linguagens modernas sao oop
+		O que e um programa oop?
+			um conjunto de objetos. cada objeto executa uma tarefa, uma funcao , que trocam mensagens entre si para resolver um problema 
+			essas funcaos sao chamadas de operacaoes ou metodos
+			Para que serve oop?
+				resolver um problema
+			Cada ubjeto tem uma funcao 
+		Objetos 
+			ou se cria um no programa ou se usa objetos prontos 
+			Cada objetos tem uma classe
+			nao existe obejtos sem classe 
+			cada objeto tem suas particularidades , seus atributos 
+			Sao criados a partir do new nomeclasse, chama um construtor para construir o objeto na memoria 
+			
+		Classe
+			dispositivos geradores de objetos 
+			e um modelo , uma especificacao dos objetos 
+			A partir deste modelos se cria esses objetos 
+			pode haver classes sem objetos 
+			Definesse os atrivutos e os metodos
+		Instancia 
+			criacao de um objeto a partir de uma classe 
+		Variavel 
+			uma referencia para um objeto. aponta para uma areade memoria que ha um objeto.NAO E O OBJETO
+		Variavel instancia 
+			varaiveis associadas ao atributo do objeto . os atributos do objeyto
+		Varaiveis de classe	
+			variaveis que independem da existencia de um objeto (static)
+		Metodo instancia 
+			metodo que depende da existencia de um objeto
+			overload
+		Metodo de classe
+			metodo que independe da existencia de objetos 
+		package 
+			conjutno de classe 
+		Destruicao de um objeto 
+			um objeto morre quando a fauncao que o criou termina 
+			ou quando usa o metodo finalize
+		Heranca 
+			a partir de uma classe que ja existe ira se criado uma nova classe com alguma funcionalidade a mais 
+			a grande vantagem é o reuso de metodos e atributos
+			super classe e subclasse 
+			override
+		Polimorfismo
+			a mema funcao com cara diferente executada corretamente na hora da execução
+		Classe abstrata
+			as funcoes so servem de modelos para s de nivel mais baixo. nao se pode instanciar um objeto diretamente dela, apenas seus fulhos que nao soa abstratos
+			uma classe com pelo mneos uma funcao abstrata
+		interface 
+			conjunto de metodos que se pode utilizar em uma classe , que sao independentes de qualquer classe. Um conjunto de headers.
+			conjunto de funcoes abstratas public e  abstracts por definicao 
+			pode haver constantes sempre public e final 
+			usada para "herança multipla"
+		Classe Abstrata 
+			Quanto mais alto a classe é , mais generica ela é, mais geral.A ideia de tipo generico e trabalhar com um conjunto de classes ao ives de uma classe espefifica. 
+			Esse conjunto de classe e chaamdo de programacao generica 
+			Colecction 
+				conjunto de classe parecidas 
+			
+			
