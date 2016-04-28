@@ -8,7 +8,9 @@ Na UML se utilza um diagrama de casos de uso
 
 Qual a importancia do diagrama de casos de uso ?
 	Todos os envolvidos no projeto utilizam este diagramas. 
+	Todas as etapas do desenvolvido o utilizam 
 	É praticamente obrigatorio 
+	É entender op que o usuario quer do sistema 
 
 Qual os elemtnos do diagrama de caso de uso? quais sao seus elemtnos?
 	Atores 
@@ -34,13 +36,36 @@ Qual os elemtnos do diagrama de caso de uso? quais sao seus elemtnos?
 				O sentido da seta sempre aponta para o caso de uso principal , por causa do sentido de consequencia 
 				O diagrama de caso de uso nao mostra essa condicao de ativaçao 
 				A condicao é colocada em um documento chamado de documentacao do caso de uso
+			
 			generealizacao
+				Tem haver com herança 
+				As atividade gerais sao definidas na classe superior , nao precisando documentar posteriormente 
 				Casos de uso generico X Casos de uso especializados 
 					Consegue definir casos de uso mais genericos e especializados, o que facilita o reuso do codigo
-					setas cheias
+					setas cheias que apontam para o caso de uso pai
+					
 				Atores Genericos x Atores Especificos
 					setas cheias 
+					mesma coisa para atores
 		Uma linha reta liga o caso de uso ao ator 
+		
 	Como documentar um caso de uso ?
-		
-		
+		Boa pratica: escrever um documento para o caso de uso espeficico. 
+		Escrever um texto documentando o caso de uso, definindo restricoes e bvalidaçoes 
+		A uml nao estabelece nenhuma regra para documentar o caso de uso , mas exite um modelinho mais ou menos pronto nos livros
+		Ela tambem nos ajuda no planejamento de testes encima dos softwares 
+		Se o caso de uso e muito complexo pode se utilizar fluxogramas para auxiliar o documento de caso de uso
+			existe um equivalente de flujxograma na uml: DIAGRAMA DE ATIVIDADES 
+				mais de aproxima do fluxograma
+		Isso tem muto haver com a operação do usuario no caso de uso
+		A maioria recomenda um formulario para associar ao caso de uso
+			nome do caso de uso, quais os atores, o fluxo do caso de uso , etc. 
+			tenso pa carai. mas se quiser ser profissional tem que saber 
+			os fluxos de dados definem o caminho de utlização que o usariao vai tomar, pensar nos caminhos alternativos e nos caminhos de erro
+				fluxo principal
+					O fluxo de dados esperado que o usuario tomara.
+				fluxo alternativo 
+					nao sao caminhos errados. lembrar do caso do facebook
+					São o caminho de atividades nao errados que sao alternativos ao fluxo principal 
+				fluxo de exceção 
+					Caminhos que nao foram previstos, que sao condiçoes de erro
