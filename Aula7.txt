@@ -62,6 +62,7 @@ Qual os elemtnos do diagrama de caso de uso? quais sao seus elemtnos?
 			nome do caso de uso, quais os atores, o fluxo do caso de uso , etc. 
 			tenso pa carai. mas se quiser ser profissional tem que saber 
 			os fluxos de dados definem o caminho de utlização que o usariao vai tomar, pensar nos caminhos alternativos e nos caminhos de erro
+			pre-condiçoes, pos condiçoes 
 				fluxo principal
 					O fluxo de dados esperado que o usuario tomara.
 				fluxo alternativo 
@@ -69,3 +70,38 @@ Qual os elemtnos do diagrama de caso de uso? quais sao seus elemtnos?
 					São o caminho de atividades nao errados que sao alternativos ao fluxo principal 
 				fluxo de exceção 
 					Caminhos que nao foram previstos, que sao condiçoes de erro
+					ajuda nas exceçoes de orinteado a objetos
+					
+	Observaçoes 
+		o que e caso de uso?
+			funciona como um contrato , algumas regras que o software tera de implementr depois 
+			este contrato define um PROCEDIMENTO 
+			representa o software do ponto de vista do usuario. 
+			pode se complementar o  caso de uso com o diagrama de atividades 	
+				entra no aspecto dinamico do software (todo software tem). mostra o movimento do software 
+				ASPECTO COMPORTAMENTAL DO SOFTWARE
+				lembra muito o fluxograma 
+	Diagrama de atividades(UML , NAO FLUXOGRAMA) 
+		açoes 
+			representada por retangulos. sao operacoes ATOMICAS. sao as operaçoes 
+		fluxo de controle 
+			os caminmbho9s que o sfotware segue no diagrama de ativdaddes. 
+			representado por uma seta 
+		nodos inicial e final 
+			representa o começo e o fim. 
+			inicio=bola cheia 
+			fim= bola com bolinha
+		pontos de decisao 
+			losangos. sao ifs
+		Atividades sincronizadas 
+			atividades feita em paralelo 
+			fork e join 
+			lembra multithread 
+			barra preta que saem as setas - fork
+			barra preta que entram as setas- join 
+		nodo conector 
+			teletranporte do fluxo.
+			lembrar o portal 
+	Variacao do diagrama de atividades: diagrama de raias (uml preve)
+		diagrama de atividades prticionado em pedaços, ou raias de natação 
+		exemplo: cada raia representa um ator
