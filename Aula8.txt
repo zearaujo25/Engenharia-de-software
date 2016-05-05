@@ -1,4 +1,4 @@
-Unidade 8- Modelagem baseada em classes- Pressman inteiro 
+Unidade 8- Modelagem baseada em classes- Pressman inteiro  POSCOMP
 Para modelar um software, existem quatro modelso
 	Baseados em cenarios 
 		Por que cenarios? 
@@ -75,3 +75,55 @@ Modelagem baseada em classes
 		informaçoes sobre um item deve estar em uma unica classe e nao distribuido 
 			isso evita a dificuldade de manutencao 
 		Quando apropriado, responsabilidades devem ser compartilhadas entre classes relacionadas.
+	Colaboração entre calsses
+		Diagram de classes aborda o relacionamento, a colaboração entre classes
+		ocorrem quando um objeto de alguma forma interage com outro objeto 
+		tres tipos:
+			é parte de(agregação e composição ) 
+			tem conhecimento de outra classe 
+			depende de 
+	Diagrama de classes 
+		fornece a primeira noção do código, primeira ideia do codigo, da estrutura do codigo 
+		primeiro diagrama da uml que mostra um embrião do codigo do programa
+		O diagrama nao mostra as interações entre objetos 
+			visto no diagrama de sequencia, que msotra o fluxo e as interações do objeto
+		visao estatica , ou estrutural do sistema, uma fotografia
+		nao mostra a natureza dinamica do software, nao mostra o filme 
+		finalidade
+			mostrar as classes,atributos,funções e relacionamentos entre as classes 
+			reflete a estrutura do codigo
+	Como construir 
+		classe é um retagulo dividio em tres retangulos meniores
+			nome , atributos e metodos 
+				recomenda-se que o nome da classe seja pertinente ao dominio do problema e siga a notação CamelCase
+				Nos atributos, define se a caracteristica do atributo 
+					+ = public
+					# = protected
+					- = private
+				O atributo recomenda-se que seja protected ou private. NUNCA public 
+				Os metodos recomenda-se que sejam public para serem utlizados
+				metodo concreto sao metodos que nao sao abstratos, ou seja , que possuem codigo
+				metodos abstratos sao o contrario , nao possuem codigo. Servem como molde para herança.italico
+				classes abstratas sao calsses que nao podem ser instanciadas, servem apenas como molde para herança.possuem pelomenos um metodo abstrata. nao pode ser instaciado um objeto pois nem todos os metodos sao definidos. italico
+				classes concretas sao o contrario. podem ser criados objetos na memoria 
+		mostra o relacionamento entre classes,  a ligação entre as classes
+			se assemelha com o de entidade e relacionamento em alguns pontos por que alçgumas classes devem ser persistente. mas um na substitui o outro pois ha calsses que nao sao persistentes, alem de haver funcoes que devem ser representadas
+			relacionamento de associação 
+				nome do relacionemtno
+				multiplicidade
+					mostra quantas instancias estao associadas entre si 
+					1..*
+						uma ocorrencia ou varias
+					*
+						varias
+					0..*
+						zero ou mais 
+					0..1
+					 zero ou um
+					m..n
+					 faiza de valores
+				tipo
+				papeis
+					representação da realidade , ex: pessoa e empresa
+			outro de especialização , generalização 
+		SLIDE 30
