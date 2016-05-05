@@ -1,0 +1,77 @@
+Unidade 8- Modelagem baseada em classes- Pressman inteiro 
+Para modelar um software, existem quatro modelso
+	Baseados em cenarios 
+		Por que cenarios? 
+			O usuario ira contar uma historianha que sao censarios que seu software ira abordar
+		Ex.Casos de uso 
+	Baseda em calsses
+	Comportamental 
+	Orientada a fluxo 
+
+Modelagem baseada em classes 
+	Por que modelar? 
+		Hojeem dia so usamos lingauigem orentaad a objetos. o conceito mais importatne e o de objeto, que executara açoes. Os objetos representam tudo aquiolo que o programa ira executar. 
+		Os objetos sempre sao criados a partir de classes
+	Precisamos cirar classes sempre? 
+		teoricamente nao , mas acabamos criando para implementar as classes ja criadas
+	Pensamos ja no objeto e no relacionamento entre classes 
+	Começamos a pensar na ESTRUTURA do codigo 
+	
+	Classes de analise
+		classe que nos obtemos ou definimos a partir da modelagem de casos de uso, analise sintatica 
+		Estas classes nao serao as definitivas uma vez que a medida que o projeto evolui, necessitaremos de outras classes 
+		essas classe tem haver com o dominio do problema, a partir das regras de negocio do problema 
+		Ao longo do tempo tem que atualizando as classes modeladas.
+	
+	Dicas para monstar suas classes em potencial 
+		Persistencia de dados 
+		Serviços necessários 
+		Atributos multiplos 
+		Atributos comuns 
+		Operacoes comuns 
+		Requisitos essenciais (Olhar no livro )
+	
+	Uma classe funciona como um template, um modelo, um molde, uma especificação 
+		possui atributos , que definem caracteristicas dos objetos 
+		metodos , sao as acoes que seu software ira realizar
+		As classes devem representar o contexto da realidade.
+		Os atributos sao definidos com base no dominio do problema, aquilo que foi modelado pelos casos de uso
+		Os atributos sao instaciados juntos com a objetos na memoria  
+		Os metodos sao armazenados na area de memoria da classe, que sao acessados pela palavra this.
+	modelagem crc
+		as vezes e muito tenso definir as classes , e para suprir isso foi criado essa tecnica
+		classe-responsabilidade-colaborador
+		nao e muito utilizado 
+		faz uma reuiniao com os usaurios , usa algumas fichas onde voce tenta colocar as responsabilidades, as pessoas envolvidas naquele serviço. 
+		os envolvidos as preenchem com suas responsabiliadde e necessidades
+	
+	Taxonomia de classe (tipos de classe)
+		Temos as classes de negocio ou classes de entidade
+			Sao as classes que obtemos normalmente de cara no sistema , relacionado ao negocio do usuario.
+			Ex. Aluno, disciplina, funcionario em um sistema escolar 
+		
+		Classes de fronteira 
+			classes que surgem ao longo do desenvolvimento do projeto . Estao ligadas na interface da aplicação.
+			Ex: Voce precisa se conectar em banco de dados, 
+		
+		classes de controle (ler e validar esses dados)
+			sao consideradas geralemtne na fase de projeto 
+		Analise
+			o que é o sistema, quais suas funcinaldiades? Para que serve o software?
+		Projeto 
+			Como implementar? Qual solução que empregarei?
+	Responsabilidades -Diretrizes 
+		Coesao
+			Quando um objeto tem uma função claramente definida 
+			Um objeto deve fazer poucas coisas de preferencia. Quanto mais coisas um objeto faz , menos coeso ele é 
+			Evite que uma classe que faça um monte de coisa, pois isso pode complicar na manutenção do software
+		Tentar fazer classes abstratas ao maximo, isso organiza seu codigo de uma melhor maneira. Criando-se metodos abstratos para serem definidos da melhor em cada objeto filho. conceito de herança!!!
+		Informação e comportamento deve residir na mesma classe
+			Garantir que as açoes delas sejam coerentes com sua função
+			garantir o conceito do encapsulamento 
+			Private x Protected
+				OPrivate : Mesma classe que acessa
+				Protected: Todas as classes filhas podem acessar
+		informaçoes sobre um item deve estar em uma unica classe e nao distribuido 
+			isso evita a dificuldade de manutencao 
+		Quando apropriado, responsabilidades devem ser compartilhadas entre classes relacionadas.
