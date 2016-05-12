@@ -109,7 +109,9 @@ Modelagem baseada em classes
 		mostra o relacionamento entre classes,  a ligação entre as classes
 			se assemelha com o de entidade e relacionamento em alguns pontos por que alçgumas classes devem ser persistente. mas um na substitui o outro pois ha calsses que nao sao persistentes, alem de haver funcoes que devem ser representadas
 			relacionamento de associação 
+				ligação entre duas ou mais classes
 				nome do relacionemtno
+				uma linha simples
 				multiplicidade
 					mostra quantas instancias estao associadas entre si 
 					1..*
@@ -121,9 +123,32 @@ Modelagem baseada em classes
 					0..1
 					 zero ou um
 					m..n
-					 faiza de valores
+					 faixa de valores
 				tipo
 				papeis
 					representação da realidade , ex: pessoa e empresa
-			outro de especialização , generalização 
-		SLIDE 30
+			relacionamento de agregação 
+				quando se tem uma classe relacionada com outra classe fazendo um relacionamento de todo e parte
+					ex: um pedido é composto por diversos itens . quando montamos um pedidos ele agrega componentes. os componentes tem vida propria? Se o pedido for cancelado, os itens morrerão junto? NAO 
+					Um item pode ser instaciado sem o o pedido . o contrario não 
+				é uma ligação fraca
+				há um pequeno losango no lugar da classe que agregará as clssers menores. 
+			relacionamento de composição
+				tambem chamadao de Agregação  forte. 
+				Uma agregação que uma classe nao pode ser instaciada sem a outra 
+				losango afrodesendente do lado forte, do agregador 
+				classes aninhadas porra
+			Relacionamento de generalização e especialização 
+				As classes de nivel mais altas são mais genericas 
+				Triangulo do lado da classe mais generica
+				A grande vantagem é usar o mecanismo de HERANÇA
+				Herdar atributos e métodos 
+				Ganhamos reusabilidade
+				Para usar herança o relacionamento "é uma espécie de" deve ser verdade
+				Semantica da herança 
+					significado da herança 
+					atributos e metodos podem ser herdados
+					faz sentido fazer um override de METODOS nao ATRIBUTOS
+					NAO TEM SENTIDO FAZER OVERRIDE DE ATRIBUTOS 
+				pode haver varios niveis de herança 
+		
