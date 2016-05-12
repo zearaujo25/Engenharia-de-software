@@ -1,0 +1,42 @@
+Unidade 8 - modelagem modelada a fluxo de dados e modelo comportamental  (cap 8 pressman)
+ptf- equivalente a patches em abientes de grande porte
+Existem varios digramas para modelagem 
+  Cenarios 
+  Classes 
+  Orientada a fluxos de dados
+  Comportamental 
+
+Modelagem a fluxo de dados 
+  Nao e documentada pela UML por ter nascido antes da UML
+  a modelagem orientada a fluxo embora seja antiga ela pode contribuir para o projeto do software 
+  na mpratica ha uma galera usando isso ainda 
+  se ela contribuir para um melhor entendimento do projeto , nao ha mal em faze-la 
+  mais presente em sistemas mais antigos , sitemas de grande porte, bancarios, etc
+  Lembra um programa COBOL ou C (linguagens estruturadas)
+  Ainda é muito importante 
+  
+Qual sua ideia ?
+  ela segue uma metodologia chamada analise estruturada
+    todo programa COBOL tem quatro divisoes , ou seções.
+      indentification
+      envirnoment 
+      data 
+      procedure 
+  Ela segue o conceito dele por ser mais antigo 
+  O foco é trabalhar nas funções , nao nos dados como e na orientação a objetos 
+  MAPEAR UM CONJUNTO A OUTRO.TRANSFORMAÇÃO DOS DADOS . LEMBRAR DIAGRAMA DE BLOCOS dDE SISTEMAS DE CONTROLE. funcao de tranferencia 
+ 
+ O que é ?
+  documentar a tranformação dos dados ao longo do sitema 
+  nasceu em 1978 concebida da analisa estruturada
+  modela as funcionalidades do sitemas por funcoes ,repositorios e fluxo de dados
+
+Diagrama de contexto 
+  DFD de nivel zero 
+  primeiro diagrama a ser feito no fluxo de dados 
+  O software  a ser desenvolvido é uma bolha , e sao representados os dados que entram e os dados que saem do sistema.
+
+Continuação da modelagem
+  Vai se dividindo o sistema central em subsistemas 
+  Cada subsistema se divide em outros sistemas até conseguir escrever o codigo do processo , ate chegar em uma função coesa , uma função elementar 
+  
