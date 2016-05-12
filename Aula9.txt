@@ -39,4 +39,4 @@ Diagrama de contexto
 Continuação da modelagem
   Vai se dividindo o sistema central em subsistemas 
   Cada subsistema se divide em outros sistemas até conseguir escrever o codigo do processo , ate chegar em uma função coesa , uma função elementar 
-  
+  lembra conceitos do paradigma funcional
