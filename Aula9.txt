@@ -12,7 +12,7 @@ Modelagem a fluxo de dados
   na mpratica ha uma galera usando isso ainda 
   se ela contribuir para um melhor entendimento do projeto , nao ha mal em faze-la 
   mais presente em sistemas mais antigos , sitemas de grande porte, bancarios, etc
-  Lembra um programa COBOL ou C (linguagens estruturadas)
+  Lembra um programa COBOL ou C (linguagens ESTRUTURADAS)
   Ainda é muito importante 
   
 Qual sua ideia ?
@@ -30,7 +30,8 @@ Qual sua ideia ?
   documentar a tranformação dos dados ao longo do sitema 
   nasceu em 1978 concebida da analisa estruturada
   modela as funcionalidades do sitemas por funcoes ,repositorios e fluxo de dados
-
+  é muito fácil de interpretar esse diagrama
+  
 Diagrama de contexto 
   DFD de nivel zero 
   primeiro diagrama a ser feito no fluxo de dados 
@@ -38,6 +39,64 @@ Diagrama de contexto
 
 Continuação da modelagem
   Vai se dividindo o sistema central em subsistemas 
+    refinamento sucetivo 
   Cada subsistema se divide em outros sistemas até conseguir escrever o codigo do processo , ate chegar em uma função coesa , uma função elementar 
   lembra conceitos do paradigma funcional
-SLIDE 8!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  Retangulo = entidade externa 
+    Atores que interagirão com o sistema
+  Retangulo borda simples = processo  
+    São as funções que representam as ações de seu sistema. É o passo a passo do sitema
+  seta= fluxo dos dados
+  linhas paralelas = Armazenamento de dados
+  Se subdivide as bolhas até se chegar em funções coesas (Reuso)
+Especificação de processo 
+  serve para caracterizar aquele processo mais a fundo 
+  So se especifica o processo quando ele esta altamente coesa 
+Dicionario de dados 
+  tabela onde especificamos a informação que esta sendo trafegada pelo sistema 
+Observações 
+  boa ferramenta de analise 
+  ainda e usada na engenharia de software 
+  Tem perdido espaço para a estruturação a objetos , mas ainda e muito util 
+MODELAGEM COMPORTAMENTAL  
+  Como modelaremos o comportamento do software?
+  Essa modelagem tenta representar no papel o comportamento do software,a maneira que ele irá se comportar.
+  A modelagem comportamental ela irá modelar a execução do programa 
+  Ela se preocupa nao com o algoritmo , e sim com as açoes 
+  Quando um objeto precisa de algum dado de outro objeto, eles se comunicam  por MENSAGENS 
+    a mensagemn nada mais e que uma chamada de serviço , função. Uma INVOCAÇÃO DE MÉTODO
+  Na modelagem comportamental são mostrados as chamadas de serviços, as invocações de métodos entre si 
+  NAO MODELAM O ALGORITMO, QUEM FAZ ISSO E O DIAGRAMA DE ATIVIDADE. 
+  Modela a comunicação entre objetos 
+  
+  Como modelar essa interação? 
+    Diagrama de sequencia !!!!!!!!!
+      Ele é um complemento do diagrama de caso de uso
+      Esta associado ao diagrama de classe 
+      Para que serve?
+        ele msotra as interações entre os objetos na sequencia que ocorrem essas interações 
+        Ele nos ajuda a detalhar o caso de uso 
+      Se baseia no caso de uso
+        detalhar o caso de uso
+      Mostra as condições para que um metodo seja invocado 
+      Trabalha com um questao de ordem temporal
+        linha do tempo
+      Pode haver diverso diagramas de sequencia
+    Elemento de diagrama de sequencia 
+      atores 
+        Os mesmo dos casos de uso 
+        Entidades externas 
+          podem ser HW ou SW 
+        Representados por um boneco com uma linha de vida que pertence a um objeto 
+      obejtos 
+        O objeto e representado por um retangulo 
+          nome do objeto em letras minusculas : nome da classe que originou o objeto
+          Logo embaixo, a linnha de vida do objeto 
+            o tempo em que um objeto exsitiu 
+      linhas de vida 
+      focos de controle ou ativação 
+      mensagens ou estimulos 
+      mensagem de retorno 
+      condições ou condiçções de guarda 
+    Diagrama de comunicação 
+    SLIDE 42!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
