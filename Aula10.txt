@@ -1,0 +1,37 @@
+Processo Unificado Útil utilizando uml e padroes craig larman 
+  Processo de softwares(pensar no envolvimento do usuario)
+    Prescritivo 
+      Cascata 
+      RUP 
+      Documentação pesada
+        processo unificado 
+    Modelos ágeis 
+      documentação não é o ponto forte deste modelo 
+    Processo unificado agil 
+      hibirdo do prescritivo e do agil 
+  Analise x Projeto (diagrama de classes pode ser utilizado em ambos os casos )
+    analsie (diagrama de claasses a nivel de dominio----->problema)
+      levantamento do problema 
+      entender oq ue o usuario quer 
+      investigar o software no dominio do problema 
+    projeto (diagrama de classes a nivel de design)
+      Já se pensa na solução 
+    Não há um marco que separam os dois, há uma região   
+  Responsabilidade dos objetos 
+    A responsabilidade de um objeto esta em suas funções 
+    A partiri do caso de usos tentaremos gerar as classe, que geraão objetos que terão funções ou responsabilidades
+  Etapas principais da modelgaem do processo unificado agil 
+    definir CASOS DE USO 
+      para o processo unificado agil o mais importante nao e o diagrama, e sim o texto por tras dele)
+      o diagrama serve como complemento ao texto 
+    Definir o modelo de dominio 
+    diagramas de interação 
+    Definir diagramas de classes de projeto 
+  Modos de usar o uml 
+    uml modo rascunho 
+      fazer uml na mao(literalemtne)!!
+      se  existe uma coisa certa na engenharia de software é: requisito muda
+      rapido e facil 
+      usado por modeladores ageis
+    uml como modelo de software 
+      modelos usados a partir de codigos exitentes. entra com o código e sai o com o diagrma.
