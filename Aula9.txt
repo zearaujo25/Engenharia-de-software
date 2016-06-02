@@ -94,9 +94,28 @@ MODELAGEM COMPORTAMENTAL
           Logo embaixo, a linnha de vida do objeto 
             o tempo em que um objeto exsitiu 
       linhas de vida 
+        x na linha de vida naquele momento o objeto é morto , geralemtne quando sua referencia é perdida 
       focos de controle ou ativação 
+        Dentro destes focos de controle o objeto esta executando alguma ação, ou processo. o tempo de ativação em segundos nao importa
+        O numero que acompanha a mensagem mostra a sequencia de execução destaa 
       mensagens ou estimulos 
+        Chamada de método ou serviçop de outro objeto 
+        A seta sempre aponta para o objjeto que irá executar a função 
+        Se a seta apontar para o retangulo do objeto, significa que o construtor esta sendo chamado. esteriotipo create
+        o esteriotipo destroy serve para destruir o objeto 
       mensagem de retorno 
+        mensagem com linha pontilhada. É  return do codigo java 
+      Auto-chamadas
+        Um objeto executa uma função dele mesmo 
       condições ou condiçções de guarda 
-    Diagrama de comunicação 
-    SLIDE 42!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+       São mensagens que serão realizadas em dada condição. 
+       Iterações tambem são realizadas com condições de guarda
+        Asterisco significa repetição 
+  Diagrama de maquina de estados 
+    === ao de linguagens formais 
+    é usado quanod e necessario açgum refinamento em caso de uso ou quando um atributo de um objeto esta sendo alterado e precisa se representar isso da melhor maneira pela maquina de estados
+    ANALISE OU LEVANTAMENTO DO NEGOCIO OU QUANDO ESTAMOS TRABALHANDO NO ´PROJETO
+    analisa o estados dosbojetos.
+      estdo são os dados que um dado objeto possui em determinado momento 
+      O estados dos objetos sao mudados atraves de eventos externos. Mas para o nosso undo , são métodos 
+    Oes estados são representados porretangulos . estdo fianl é sinalizado da mesma maneira que linguagens formais 
