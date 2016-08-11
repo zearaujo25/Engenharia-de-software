@@ -1,0 +1,93 @@
+Capítulo 12 - Fundamentos de teste de software 
+	1º Semestre
+		IREB - Engenharia de requisistos 
+	
+	2º ISTQB (Represebntado no brasil pela BSTQB)
+		Focado em teste de sftw(pense em fazer a certificação foundation)
+	
+	Base de teste 
+		Tudo aquilo que pode te ajudar a testar o software. diagramas, ferramentas, relatorios, etc. realiza 100% da cobertura de codigo
+	Cobertura de codigo 
+		Numero que mede a quantidade de comandos que o teste pega. odas vez que o teste rodar um comando , ele contabiliza isso.
+	Teste Exaustivo 
+		Teste que aborda todos os caminhos , todas as possibilidades que o software pode ser submetido 
+
+	BUG x Failure 
+		Bug é uma falha que nao foi detectada, um erro do programador. A falha é quando o bug é rodado, ou seja é um erro executado.(Estatico x dinamico)
+	
+	Teste de confirmação 
+		teste realizado apos o reparo de um bug detectado 
+	
+	Teste de regressão 
+		Um novo teste realziado apos o de confirmação , normalemten feito apos a manutenção do software. Serve para verificar o impacto da mudança no resto do sistema, verificar o efeito colateral 
+	Teste unitario 
+		teste realizado pelo desenvolvedor
+	Teste de aceitação 
+		Testes ralizados pelos usuários. A famosa versão Beta
+	Introdução 
+		Custa realizar testes no software?
+			30% a 40%(Alguns dizem 50) do projeto , ou seja, caros
+		Testar um software égarantir a qualidade dele 
+			envolve certificação -- > CTFL(masi basica, ),CTAL-TM,CTAL-TA,CTAL-TTA
+	
+	Termos e motivação 
+		Por qeu é complicado testar software?
+			não é m produto tangível. Não sofre ação do tempo, é uma atividade intelectual.
+		
+		
+		
+		O softawre é feito pela mao humana. E uma ativiadde intelectual. Por esse motivo o erro é inerente . 
+		
+		Para se examinar um softawre é utilziado sua documentação e seu codigo.
+	
+		Quando se para de testar? 
+			Usando estatiscas, voce avalia as funcoes mais criticas e as de maior riscos. Assim se faz um planejamento de testes e pontos principais a serem avaliados
+		Como se testa? 
+			-Utilizando a documentação
+				analsiando a documetnação pode ser detectado codigos mortos 
+				
+			- É possivel testar o software sem roda-lo?
+				sim. teste de mesa teste estatico, ou pela documentação
+			- É preciso ter codigo escrio para se ter um bug? 
+				nao. se possuir um projeto errado, ja existe um bug
+		Por que testar o software? 
+			tudo tocado pela mao humana está sujeita a erros. Codigos inclusos
+		
+		Qual o grande objetivo dos testes ?
+			Achar bugs
+		
+		Quais os grandes prejuizos dos bugs? 
+			Dinheiro perdido e sua reputação afetada(pensar no caso do web designer )
+		
+		Quais as causas de bugs? 
+			-Pressão encima de prazos
+			-mudanças de tecnologia
+		
+		Custo de detecção do bug
+			Quanto mais tarde for, maior esforço de detecção de bug, ou seja maior seu custo. Aumenta exponencialmente. para se achar um bugf me fase incial e mais barato 
+		
+		Existem normas para se testar software 
+		
+		Função do teste de software 
+			reduzir riscos, melhorar qualidade
+		quando um teste é bem feito e mal feit? 
+			Quando se descobre defeitos pe bom
+			quando nao se detecta , é ruim
+			Requisito sempre muda, e software sempre tem bug!!!!!!!!!!
+		Norma-iso9126
+			determina atributos de qualidade so software 
+		Resultado de teste 
+			Relatórios com metodologias e erros detectados
+			melhoria da qualidade do software 
+		
+		Em via de regra geral , o testador e o desenvolvedor nao misturam os trabalhos. quem testa, testa. quem desnvolve, desenvolve.
+		
+		Verificação x Validação 
+			
+			Verificação
+				O software foi projetado corretamente? foi construido de maenira correta? voltado mais para as propriedades do software.
+			
+			Validação 
+				é o que o usuario quer. é o que o usuario está querendo 
+				Estamos atendendo ao usuario ? 
+				Atende a especificação do software 
