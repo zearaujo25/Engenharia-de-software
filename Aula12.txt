@@ -12,6 +12,18 @@ Capítulo 12 - Fundamentos de teste de software
 	Teste Exaustivo 
 		Teste que aborda todos os caminhos , todas as possibilidades que o software pode ser submetido 
 
+	Partição válida 
+		Conjunto de valores validos para um campo 
+		
+	Partição inválida 
+		São casos de teste que o software tem que rejeitar
+		
+	Casos de testes 
+		Conjunto de condições usadas para testar o software 
+	
+	Automação de testes
+		feitos pelo arquiteto de softwares. São programs que irão testar outros sistemas
+	
 	BUG x Failure 
 		Bug é uma falha que nao foi detectada, um erro do programador. A falha é quando o bug é rodado, ou seja é um erro executado.(Estatico x dinamico)
 	
@@ -22,8 +34,17 @@ Capítulo 12 - Fundamentos de teste de software
 		Um novo teste realziado apos o de confirmação , normalemten feito apos a manutenção do software. Serve para verificar o impacto da mudança no resto do sistema, verificar o efeito colateral 
 	Teste unitario 
 		teste realizado pelo desenvolvedor
-	Teste de aceitação 
-		Testes ralizados pelos usuários. A famosa versão Beta
+	Testes de integração 
+		Testa como os modulos de sistema se comunicam com entre si. Se estão trocando informações corretamente. testa a composição dos modulos 
+	Tesste de sistmea 
+		testa o sistmea como um todo 
+	
+	Teste de operação 
+		Teste que leva em conta os aspectos de qualdiade (segurança, desempenho ) 
+	
+	Teste de aceitação (ou homologação ou aceite )
+		Testes ralizados pelos usuários. A famosa versão Beta. feito para a validação do sistema 
+		
 	Introdução 
 		Custa realizar testes no software?
 			30% a 40%(Alguns dizem 50) do projeto , ou seja, caros
@@ -91,3 +112,24 @@ Capítulo 12 - Fundamentos de teste de software
 				é o que o usuario quer. é o que o usuario está querendo 
 				Estamos atendendo ao usuario ? 
 				Atende a especificação do software 
+		
+		Quando o teste é suficiente? 
+			raramente realizar um teste exaustivo é aplicável. por conta disso, deve-se diminuir o universo para pontos de interesse do sistema 
+			Para se determinar o quao intesivo os testes serão , deve-se analisar o risco envolvido nauqlee software, tanto no ambito tecnico quanto no ambito de projeto , alem de restricao de tempo e orçamento 
+		
+		Lembrar: Teste não é uma atividade, e sim um processo(conjunto de atividades). Ha todo um planejamento por tras, todo um controle, toda uma modelagem , uma analise, uma exwecução , criterios ,etc
+		Atividades do testes 
+			planejamento
+			controle 
+			modelagem 
+			analise  
+			Execução do codigo
+		^Grande objetivo dos testes. 
+			Encontrar defeitos. 
+			Trazer informaçãoes para correção 
+			Trazer segurança na qualidade do produto
+		Testar X Depurar 
+			o teste é o dedo duro, fala o que ta errado. feito pelo testador 
+		O testegarante 0 defeitos? 
+			NAAAAAO!!!!
+			a depuração é corrigir o bug. Sempre feito pelo desenvolvedor
