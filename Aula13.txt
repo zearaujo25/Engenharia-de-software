@@ -91,3 +91,49 @@ Testes Durante o CICLO DE VIDA  do software (LIVRO: REX BLACK )
       Acesso ao codigo , avalia-se o teste em si. o programador que realiza esse
     Teste caiax preta 
       nao se analisa o codigo , so as funcionalidades, a perfomance do sistema. foda -se o codigo
+    O teste deve contaminar o desenvolvimento .A execução do teste é planejada com múltiplos ciclos para permitir tempo de correção
+  Teste estático 
+    não executa o programa 
+    Analise estatica 
+      Analisar o codigo no olho , sem rodar o programa. 
+      Ex: Teste de mesa. Verificar se ha codigo morto , verificar se as variaveis sao usadas ou nao. veifica se há funções depressiadas. 
+      Exitem ferramentas para isso, ex fxcop 
+    Revisão 
+  Teste Dinâmico
+    Ve o software em execução. Como ele se comporta ao ser executado 
+    Teste caixa branca (Ou de estrutura )
+      Analsa-se o codigo , se a logica esta sendo utilziada direito 
+      Cobertura de codigo é a extensão que uma estrutura foi exercitada por um conjunto de testes,
+expresso como uma porcentagem de itens cobertos;
+      Depende da arquiteura do software
+    Teste caixa preta 
+      Input output. foda-se o meio. Verifica o comportamento geral 
+    Testes não funcionais 
+      testes que verificam performances , estresse, tempo de resposta, , usabilidade , etc , etc 
+      Sao realizados em todos os niveis de teste 
+      Verifica como o sistema trabalha 
+    
+    Teste de manutenção
+      Testes feitos após uma alteração feita no sistema. o teste de manutençãos tem uma ligação proxima com o teste de regressão
+      A determinação de como um sistema pode ser afetado por mudanças é chamado análise de Impacto, e pode ser usada para ajudar a decidir quantos testes de regressão serão realizados;
+
+      
+    Gatilhos de manutenção 
+      Fatores que desencadeiam o teste de manutenção 
+      Modificações,  mudançaas de ambiente , ou retirada de um subsistema 
+    Teste de regreção 
+      Procura detectar os efeitos colaterais nos outros modulos do sistemas 
+      Local
+        Busca bug no proprio modulo causado pela mudança 
+      Exposta 
+        Desconbrem-se bugs ja existentes mostrados pela mudança 
+      Remota
+       Acarreta bugs em outros sistemas. Procura-se esse bugs 
+      Estrategias 
+        Por incrementos, gradualmente. conforme for testando vai liberando 
+        Repetir todos os testes 
+        Selecionar alguns testes que visam testar apenas certas areas do sistema 
+        
+      Remota 
+      
+    
