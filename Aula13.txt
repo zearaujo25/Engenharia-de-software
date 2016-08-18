@@ -1,0 +1,38 @@
+Testes Durante o CICLO DE VIDA  do software (LIVRO: REX BLACK )
+  O que é ciclo de vida? 
+    Processos no desenvolvimento do software 
+  Para se testar um software , precisa haver codigo ? 
+    NAO, pois qunado se levanta os requisitos, por exemplo, deve-se validar os requisitos por exeplo. Se há documentação , tambem é uma maniera de verificar 
+    
+  O programador pode testar tambem
+  
+  Enquanto se desenvolve, preucupa-se com os testes 
+  Lembrar que os testes são PROCESSOS, nao atividades 
+    Fases: planejar,analisar,modelar,implementar,relatorio conclusivo 
+  
+  Modelos de desnvolvimento de software 
+    Cascata 
+      linha de produção
+    Incremental 
+    Evolutivo 
+ 
+  Modelo V 
+    equivalente no mundo dos testes do casacata do mundo dos desenvolvimento 
+    Possui a atividade de revisão 
+    A medida que o software vai sendo desenvolvido, os testes ja vão sendo bolados 
+    Possui 4 niveis de testes 
+      Teste unitario ou teste de componente 
+        Teste isolado em um determinado modulo do sistema 
+      Teste de integração 
+        Verifica como os modulos estão se comunicando entre si , como as funcionalidades se comunicam entre si. Nao abraje todos os modulos 
+      Teste de sistema 
+        Teste global , com todos os modulos juntos 
+      Teste de aceite 
+        Teste normalemtne feito pela validação do usuario . Os requisitos sao avaliados 
+  Modelos evolucionarios (metodos ageis )
+    Em cada incremento do sistema , testes são realizados em cima destes 
+    É necessario fazer um teste de  regressão 
+      Verifica o efeito colateral provocado por alterações no sistema, pelos novos incrementos 
+      É necessário ter uma boa gerencia de configuração 
+        Controle sobre as versões do software 
+    
