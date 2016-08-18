@@ -35,4 +35,26 @@ Testes Durante o CICLO DE VIDA  do software (LIVRO: REX BLACK )
       Verifica o efeito colateral provocado por alterações no sistema, pelos novos incrementos 
       É necessário ter uma boa gerencia de configuração 
         Controle sobre as versões do software 
+        Versionamentos!!!!! Git, Mercurial, etc 
+      É necessário verificar e validar o software a cada incremento. Verificar esta mais relacionado a aspectos tecnicos . Validar e a aceitabilidade e notar se os requisitos estão atendendo, se a usuablidade esta ok (Se esta agradavel de usar o software. lembrar do exemplo do fluxo de clique) . Validar esta voltado a aspectos do negocio 
+  Independentemente do modelo usado no desenvolvimento, COMEÇAR A FAZER OS TESTES O MAS RAPIDO POSSIVEL.
+  Teste tem que ser feito ao longo do desenvolvimento 
+  Um testador nao precisa esperar o programa para testar. Pode se validar os documentos antes do codigo 
+  Teste de componente ou teste unitario 
+    Visa encontrar bugs antes que aflorem em defeitos 
+    Testa banco de dados, modelagem dos softwares ,etc etc 
+    Teste funcional
+    Teste nao funcional 
+      Se atende requisitos 
+      Teste de qualidade , performance, confiabilidade.
+    Drivers e Stubs 
+      Modulos que nao estao prontos ainda para testar a funcionaldiade de outro modulo. são SIMULADORES
+      Driver  
+        quem chama os modulos que estão sendo testados. Simulador de usuario por exemplo 
+      Stub 
+        Modulos que o modulo a ser testado esta testando 
+    Executado em abinetes de teste 
+    Testados por programadores 
+  Teste de integração 
     
+
