@@ -56,5 +56,38 @@ Testes Durante o CICLO DE VIDA  do software (LIVRO: REX BLACK )
     Executado em abinetes de teste 
     Testados por programadores 
   Teste de integração 
-    
-
+    Foca na comunicação entre modulos 
+    Estraetgias de implementação 
+      Bottom-up 
+        Testa as camadas mais baixas, os modulos mais baixos primeiro. Testa modulo baixo e vai substituindo os drivers 
+      Top-Down 
+        Começa-se testando os modulos mais altos, começa-se nos modulos mais alto (modulos de controle) e vai substituindo os stubs
+      Backbone 
+        Escolhe-se os mo0dulos mais critcos do sistema para serem testados primeiros 
+      Big bang 
+        Pega todos os modulos e testa tudo junto , lembra um teste de sistema . Não usa drivers nem stubs 
+    Normalmente quem faz o teste de integração é o lider do projeto 
+  Teste de Sistema 
+    Testa- se o ambiente como todo
+    Funcionalidade,eficiencia,usabilidade,confiabilidade,stress, etc...
+    Normalmente quem faz é a equipe de testes. Se não tiver, o lider do projeto 
+    Procura-se bugs
+  Teste de Aceite
+    São os usuarios testando. Disponibiliza os teste para um grupo controle de ususarios 
+    É o usuario testa 
+    Teste operacional 
+      SIMULADOR DE DESASTRES!!!!!!!!!"!"!!!!!!
+    Beta,Alfa,de campo  
+      Teste de cam´po que envolve MUITOS usuarios. Feito para se obter feedback dos clientes. 
+      Alfa
+        Usa-se a infra da emrpesa 
+      Betta
+        usa se a infra do cliente 
+    Teste de Aceite do Usuário (“UAT”)  
+      um usuario com o perfil de negocio 
+  Testes pervasivos 
+    Quanto maior a diversaidade do teste, melhor 
+    Teste caixa branca 
+      Acesso ao codigo , avalia-se o teste em si. o programador que realiza esse
+    Teste caiax preta 
+      nao se analisa o codigo , so as funcionalidades, a perfomance do sistema. foda -se o codigo
