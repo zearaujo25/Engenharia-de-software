@@ -1,0 +1,77 @@
+Unidade 14- Técnicas de Modelagem de Teste
+  Fases do desenvolvimento do teste4 
+    Analise (Risco de qualidade)
+      Define o que será testdo no software. Definir os modulos de maior risco 
+      Define-se os riscos de qualdiade .
+    Modelagem 
+      Define-se os casos de teste 
+    Implementação (Projeto de teste)
+ 
+  Risco de qualidade 
+    risco : o que pode dar errado 
+    O valor do risco é medio entre 0 e 1. Analisado com probabilidade
+    O risco e sempre projetado no futuro 
+    O risco esta sempre associado a uma ocorrencia de falha, ou seja, a chance de de uma falha ocorerrer.
+    Como se analisa os riscos de qualidade 
+  Matriz de risco 
+    Risco tecnico 
+      falhas associadas a tecnologia. O codigo falhar . 
+    Risco de negocio 
+      Impacto daquela falha no negocio do usuario . O quao tenso vai ser se aquela falha ocorrer. Qual tamanho da merda?
+    Os riscos sao medidos de acorodo com o peso dele. Por exemplo  de 1 a 5
+    Prioridade do risco = Risco tecnico * Risco do negocio
+    Serve para fazer uma analise do que testar no software 
+  Norma IEEE 829
+    Util para documentar os testes 
+    norma que ajuuda a escrever a documentaçao do teste 
+  Coberura de teste (Rastreabilidade)
+    
+    Matriz de rastreabilidade 
+      Matriz onde se coloca os requisitos em uma linha e os casos de teste nas colunas 
+      Caoss de testes 
+        os dados que voce vai criar para um determinado requsiito 
+        os valores que voce entrar no codigo para realizar o teste (Valores mesmo. entradas )
+      O tesste pode ser feito direta ou indiretamente no requisito 
+        diretamente. 
+          o requisito eh chamado diretametne . o teste avalia diretamente aquela funcionaldiade
+        indiretamente 
+          na hora de se fazer um teste uma outra função precisa ser achamada. uma funcionaldiade que foi chamada em consequencia de outra 
+      Mapa de como os testes estao progredindo. Mostra como os testes se relacionam com as pespecificações 
+      Serve para fazer uma gestão dos testes
+    A matriz e importancia para a Gerencia de software 
+      e importancia por que no passado era se feito software solitariamente. Mas hoje so se trabalha em queipe E tudo que tem o 
+  Categorias de modelagem de teste 
+    CAI NA PROVA, CAI NAS ENTREVISTAS> CAI EM TUDO 
+    tres tecnicas 
+    
+    Tecnica baseada na especificação ( Caixa preta)
+      quando NAO SE LEVA em conta a estrutura interna do codigo !!!!!!!!!!!! 
+      Precisa-se de documento do software
+        diagrams da uml, documento de requisitos , um diagrama de casos de uso
+      RODA O PROGRAMA !!! E VE SE BATE COM A ESPECIFICAÇÃO
+      Faz o teste com base na documentação
+      Leva-se em conta as entradas e as saidas
+      Partição de quivalencia 
+        tecnica usada na caixa preta 
+        Pega-se os dados e os partionam em grupos
+    Tecnica baseada na estrutura (Caixa branca )
+      Teste que verifica o codigo 
+      P`ressupoe acesso codigo 
+      Ao se analisar o codigo fonte voce irá gerar os CASOS DE TESTE 
+      usado com base no codigo fonte
+      Pode-se rodar ou nao o programa
+      Com base no codigo e nos casos de testes faz-se uma cobertura de decisão 
+      faz a cobertura de decisão 
+        garantir que o programa passe por todas as condições possíveis 
+        Cobertura de decisão 100% 
+          Todas as condições são verificadas 
+      Faz cobertura de  Cobertura de comandos
+      Analisar uma quantidade de comandos que seu software possui.
+   
+    Teste baseada na expericnia (ou teste exploratorio)
+      leva em conta a vivencia do cara que esta fazendo o teste. 
+      plano baseado na experiencia do testador 
+      Normalmente ou se nao tem a documentação ou quer fazer um teste a mais 
+      baseado na intuição 
+      pode se usar em casos em que o tempo te teste e curto
+    
