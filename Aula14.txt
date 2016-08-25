@@ -53,7 +53,14 @@ Unidade 14- Técnicas de Modelagem de Teste
       Leva-se em conta as entradas e as saidas
       Partição de quivalencia 
         tecnica usada na caixa preta 
-        Pega-se os dados e os partionam em grupos
+        Pega-se os multiplos dados de entrada e os partionam em grupos
+        Separar os dados em agrupamentos e na hora de testar pegar um dos dados de cada um gos grupos 
+        lembrar da faixa de valores. dentro da faixa de valores, a direita da faixa de valroes e a esquerda da faixa de valroes 
+        
+        ....(a esqurda da faixa de valores aceitavel ).....18-------(a faixa de valores aceitavel )-------35...(A direita da faixa de valroes aceitavel)....
+        Um programa correto soa ceita dados corretos? 
+          Nao !! pois é necessário ver os valroes invaldios tambem, como mostrado no desenho 
+        Alem disso e necessario testar os valroes limites!!!! As extreminadas da faixa de valores. a amioria dos
     Tecnica baseada na estrutura (Caixa branca )
       Teste que verifica o codigo 
       P`ressupoe acesso codigo 
