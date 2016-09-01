@@ -92,6 +92,7 @@ Unidade 14- Técnicas de Modelagem de Teste
           garantir que o programa passe por todas as condições possíveis 
           Cobertura de decisão 100% 
             Todas as condições são verificadas. verifica os caminhos dos ifs
+            Se pensa em todos os caminhos que os ifs podem fazer
           Cobertura de condição 
             Verifica todas as CONDIÇÕES, OS ANDS ORS DA ESTRUTURA CONDICIONAL 
           Cobertura de comandos ou sentenças 
@@ -100,7 +101,16 @@ Unidade 14- Técnicas de Modelagem de Teste
             Pensa em casos de testes que se abrangem a maior quantiadede de comandos possivel .
           Cobertura de laço 
             Condiçoes associadas aos caminhos dos laços 
-   
+          Complexidade ciclomatica de McCabe
+            numero inteiro que se pode ter uma ideia da complexidade do programa
+            se avalia o grafo do codigo, o fluxograma. 
+            Existe uma formulinha que da umaideia dos casos de testes necessarios para avaliar os casos de testes necessario 
+            FAzer um fluxograma e fazer um calculo encima desse fluxograma 
+            Esse numero é chamado de complexidade. indica a complexidade do teste. Ligado a quantidade de caminhos independentes
+            passo 1 : fluxograma
+            Passo 2 aplicar a formula (usa quantidade de arestas e nos, ou a quantidade de areas fechadas) 
+            Quantas regioes , quantos ciclos tem o flucograma (pensa em bolinhas, nos e arestas)
+            com essa quantidade de regioes, tem se a complexidade de mccabe. formula = #R + 1 , onde3 r# formula do mccabe. se tiver 2 regioes fechadas, haverão tres casos de teste 
     Teste baseada na expericnia (ou teste exploratorio)
       leva em conta a vivencia do cara que esta fazendo o teste. 
       plano baseado na experiencia do testador 
