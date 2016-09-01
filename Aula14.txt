@@ -5,14 +5,17 @@ Unidade 14- Técnicas de Modelagem de Teste
       Define-se os riscos de qualdiade .
     Modelagem 
       Define-se os casos de teste 
+    condição de teste
+      define-se o que será testado no sitema
     Implementação (Projeto de teste)
  
   Risco de qualidade 
     risco : o que pode dar errado 
     O valor do risco é medio entre 0 e 1. Analisado com probabilidade
     O risco e sempre projetado no futuro 
-    O risco esta sempre associado a uma ocorrencia de falha, ou seja, a chance de de uma falha ocorerrer.
+    O risco esta sempre associado a uma ocorrencia de falha, ou seja, a chance de de uma falha ocorrer.
     Como se analisa os riscos de qualidade 
+ 
   Matriz de risco 
     Risco tecnico 
       falhas associadas a tecnologia. O codigo falhar . 
@@ -46,21 +49,34 @@ Unidade 14- Técnicas de Modelagem de Teste
     
     Tecnica baseada na especificação ( Caixa preta)
       quando NAO SE LEVA em conta a estrutura interna do codigo !!!!!!!!!!!! 
-      Precisa-se de documento do software
+      Precisa-se da DOCUMENTAÇÃO do software
         diagrams da uml, documento de requisitos , um diagrama de casos de uso
       RODA O PROGRAMA !!! E VE SE BATE COM A ESPECIFICAÇÃO
       Faz o teste com base na documentação
       Leva-se em conta as entradas e as saidas
+     
       Partição de quivalencia 
         tecnica usada na caixa preta 
         Pega-se os multiplos dados de entrada e os partionam em grupos
         Separar os dados em agrupamentos e na hora de testar pegar um dos dados de cada um gos grupos 
         lembrar da faixa de valores. dentro da faixa de valores, a direita da faixa de valroes e a esquerda da faixa de valroes 
-        
-        ....(a esqurda da faixa de valores aceitavel ).....18-------(a faixa de valores aceitavel )-------35...(A direita da faixa de valroes aceitavel)....
-        Um programa correto soa ceita dados corretos? 
+        ex:
+         ....(a esqurda da faixa de valores aceitavel ).....18-------(a faixa de valores aceitavel )-------35...(A direita da faixa de valroes aceitavel)....
+        Um programa correto so aceita dados corretos? 
           Nao !! pois é necessário ver os valroes invaldios tambem, como mostrado no desenho 
-        Alem disso e necessario testar os valroes limites!!!! As extreminadas da faixa de valores. a amioria dos
+        Alem disso e necessario testar os valroes limites!!!! As extreminadas da faixa de valores. a amioria doserroso ocorrem nos valores limites1
+        Valor limite 
+          valores que são os as extremidades dos casos de testes. limites validos e limites nao validos. limite valido sao valores de extremidade que sao validos. o mesmo vale para o invalido. se considerar os valores limites , a quanidade de casos de testes a serem feitas é aumentada
+       Tabela de decisão 
+          é uma tabela lógica, uma tabela verdade 
+         Há as condições
+          as afirmções lógicas  ticam  na primeira coluna, nas primeiras linhas 
+         Decisões ou ações
+         linhas na parte de baixo da tabela. dependendo do valor encontrado nas primeirass linhas. analisa as combinaç~eis entre as condiçoes e com base nelas se decide 
+         cada coluna da tabela e um caso de teste da tabela. são as combinações entre as decisões
+        Diagrama de estados 
+          umd eterminado valor que muda de estado ao longo das entradas. lembrar de compiladores
+          Se testa todos os caminhos possiveis 
     Tecnica baseada na estrutura (Caixa branca )
       Teste que verifica o codigo 
       P`ressupoe acesso codigo 
@@ -81,4 +97,13 @@ Unidade 14- Técnicas de Modelagem de Teste
       Normalmente ou se nao tem a documentação ou quer fazer um teste a mais 
       baseado na intuição 
       pode se usar em casos em que o tempo te teste e curto
+    Modelagem de teste
+      A modelagem de teste visa indentificsd sd condiçoes de teste e os casos de teste
+      
+      Condição de teste 
+        Um item do sistema que será testado. um aspecto, uma funcionaldiade, uma requisito (quantificavel ) 
+      Casos de teste 
+        Conjunto de valores que serão utilziados em cada condição de teste 
+        
+      
     
