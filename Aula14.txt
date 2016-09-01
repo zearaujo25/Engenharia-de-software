@@ -77,6 +77,8 @@ Unidade 14- Técnicas de Modelagem de Teste
         Diagrama de estados 
           umd eterminado valor que muda de estado ao longo das entradas. lembrar de compiladores
           Se testa todos os caminhos possiveis 
+   
+   
     Tecnica baseada na estrutura (Caixa branca )
       Teste que verifica o codigo 
       P`ressupoe acesso codigo 
@@ -84,12 +86,20 @@ Unidade 14- Técnicas de Modelagem de Teste
       usado com base no codigo fonte
       Pode-se rodar ou nao o programa
       Com base no codigo e nos casos de testes faz-se uma cobertura de decisão 
-      faz a cobertura de decisão 
-        garantir que o programa passe por todas as condições possíveis 
-        Cobertura de decisão 100% 
-          Todas as condições são verificadas 
-      Faz cobertura de  Cobertura de comandos
-      Analisar uma quantidade de comandos que seu software possui.
+      Cobertura de código 
+        Taxa que mede os intens do código que esão sendo testados , exercitados 
+        cobertura de decisão 
+          garantir que o programa passe por todas as condições possíveis 
+          Cobertura de decisão 100% 
+            Todas as condições são verificadas. verifica os caminhos dos ifs
+          Cobertura de condição 
+            Verifica todas as CONDIÇÕES, OS ANDS ORS DA ESTRUTURA CONDICIONAL 
+          Cobertura de comandos ou sentenças 
+            Analisar uma quantidade de comandos que seu software possui.
+            qunatos comandos sendo testados divididos pela quantidade de comandos total 
+            Pensa em casos de testes que se abrangem a maior quantiadede de comandos possivel .
+          Cobertura de laço 
+            Condiçoes associadas aos caminhos dos laços 
    
     Teste baseada na expericnia (ou teste exploratorio)
       leva em conta a vivencia do cara que esta fazendo o teste. 
