@@ -1,0 +1,59 @@
+Unidade 15 - Gerenciamento de tete, simulados do ctfl 
+
+  Tem haver com a parte de como conduzir, administrar o teste. 
+  Arquiteto de testes 
+   Automação dos testes !!!
+   Funcao relativamente nova 
+   cria bots de teste 
+  Lider 
+    precisa de prova de certificalção (CTAL)
+    coordenador de testes
+    define o plano de testes 
+      documento qe se define o que será testado, como será testado,,casos de teste,etc. Planjamento do teste 
+      ieee 829
+    esstimativa de teste 
+      quanto tempo demorara o teste 
+    Adquirir os recursos para testes 
+      hw sw etc
+    testware
+      pacote completo de documentação, relatórios,normas,procedimentos,etc  
+      associado ao gereciamento de configuração 
+        Versionamento!!!!!!!!!!
+        toda atividade relacionada ao controle de versionamento de software 
+    Controle de execução do teste 
+    Garatne rastreabildiade do teste  
+      matriz de rastreabilidade onde se verifica os testes em cada modulo do software 
+    Analisa quais ferramentas utilizar 
+    Cuida do treinamento da equipe 
+    Agendametno dos testes  
+    Faz o relatório 
+  Testador 
+    Executa os testes 
+    Revisa o plano de testes 
+    avalia os requisitos
+    define casos de testes 
+    trabalha nos varios niveis de teste
+      TESTE DE UNIDADE!!!!!
+      TESTE DE INTEGRAÇÃO (DRIVERS, E STUBS)
+      TESTE DE SISTEMA
+      TESTE DE ACEITE
+    registra o teste
+    automatizar o teste 
+  equipe de teste 
+    qual a melhor equipe de testes?
+      aquela que e heterogenea, pois quanto mais diversificada é, mais pontos de vistas se tem , que se complementam da melhor maneira. 
+  Atividades do planejamento de testes 
+    definir o planejamneot de teste 
+      Atividades do planejamento de teste 
+        define os niveis de testes que serão abordados 
+        integrar o teste no ciclo de vida 
+          modelo v
+            associa uma etapa de testes a cada etapa do desenvolvimento do sfotware 
+        norma ieee 829
+
+  Smoke test 
+    Todo software tem o caminho feliz , o caminho ideal de execução de um teste , o caminho PRINCIPAL
+    testa essa caminho feliz. 
+    testa a função importaten do sistema para ver se esta funcionando 
+    é um dos criterio de entrada para outros testes , normalmetne o de sistema 
+      algumas premissas , pre requisitos que devem ser atendidos para se começar o teste 
