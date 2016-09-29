@@ -1,0 +1,88 @@
+Unidade 16 - Gestão de configuração de Software 
+  Assunto ligado a mudançaa. é um assunto qu eé inevitável na engenharia de software. 
+  Ao se construir software mudanças sao inevitaveis 
+    
+    interesses de clientes mudam
+    
+    o que o usuario acha que quer muda 
+    
+    o ambiente de desenvolvimento muda
+    
+    a legislação muda
+    
+  Qual o impacto daas mudanças do software
+    pode haver um impacto na euqipe. pode gerar problemas de comunicação 
+      muitas vezes e mudança nao foi registrada 
+      Ou seja, pode gerar problemas de entendimento na equipe 
+   Se nao tivermos preocupados em registrar as mudanças , isso pode prejudicar a qualidade do software
+   Toda vez que haver uma mudança, precisa-se registra-la!"!!!!!!!
+   Problemas suasis 
+    Um erro corrigido aparece novamtne 
+    A versão do software foi entregue errado para o usuario 
+    qual a diferença de eversão e release? 
+      release é uma versão final do software
+      as versões são as modificações que são feitas ao longo do software
+    A gestao de configuração gera informaçoes desde quem alterou o programa, que versao foi entregue do programa, quais as mudanças que foram realizadas no programa
+    Todo mundo da equipe precisa estar nivelado em nivel de informação 
+    Problemas de compartilhamento de codigo 
+      um desenvolvedor pode modificar um conjunto de dados compartilhados , ao mesmo tempo que outro
+    Solução : Cada um cria um ramo do arquivo para os diversos usuarios. mas ainda há o problema da MANUTENÇÃO MULTIPLA 
+    Manutenção multipla
+     cada desenvolvedor tem uma copia dos dados compartilhados. mas quais funcionaldiades serão implementadas se diversas pessoas criam ao mesmo tempo ?
+    Solução : Repositorio central 
+      Há um repositorio central que é reposnvale por controlar essas mudanças 
+      ]Possuem uma biblioteca central, chamada de repositorio 
+      Isso resolve por quue há cada mudança o repositorio central e atualziado 
+      Contudo cria um problema de ATUALIZAÇÃO SIMULTANEA 
+     Problema de atualização simultanea 
+     Software de gestão de configuração (SCM- Software Configuration Managemet )
+      Gestão de configuração e uma arte de controlar mudanças 
+      Principais atividades da gestão de configuração: 
+        Indentificar, registrar a alteração 
+        controlar a alteração 
+          Quem, qual plataforma foi feita, quando, foi feita, previsão de termino 
+        Assegurar que a alteração esteja senod feita de fomra correta 
+        Relatar para as outras pessoas que a alteração foi feita
+        Guardar todos os tiops de mudança, desde testes até código, compiadores, interfaces de desenvolvimento 
+      Gestão de configuração acompanha todo o ciclo de vida do software 
+      Por que precisa de um controle de versionamento de software? 
+        A medida que o software e desenvolvido , fica muito complexo indentificar e administrar tudo o que ocorer no softwae
+      Principais atividades 
+        Gerenciamento de mudanças
+          Ter o controle e medir o impacto de cada mudança que é requisitada 
+        Gerenciamento de versões 
+          Manter o controle dos varios tipos de componetnes 
+        Gerenciamento de releases 
+          Ter o controle das versões do software que são disponibilizadas para os clientes 
+      Itens de configuração do sfotware 
+        Tudo que seá armazenado que estão relacionado aquela versão do software. qualquer coisa que será armazenado no repositorio 
+       Configuração de software 
+        Relacionamento entre diversos itens [
+       Repositorio do scm 
+        Banco de dados, é onde guardamos todas as informações que estão sob gestao do scm 
+        precisa ter integridade, precisa ter capacidade de compartilhar informações 
+        conteudo do repositorioi 
+         TUDO pertinente a versão do software
+        Versão 
+          É uma instancia , um estaado de um item de configuração .
+          Ao longo do projeto, os diversos itens de configuração, diversas mudanças são efetuadas 
+          O SVM permite retroceder entre as versoes 
+         Caracterisitcas do repositorio 
+          habilidade para rastrear componetens 
+            Saber quem esta lidando com um determinado requisito do software 
+          Audit trails 
+            saber cquem , quando , como alterou 
+          Lock 
+            igual banco de dados
+          Trabalha e adminsitra a relaçao entre os itens de configuração 
+          Algumas relações são de opcionaldiade e iobrigatoriedade 
+          Check in 
+            Adiciona algum elemtno , um item de configuração  de repositorio 
+           check out 
+            Retira do repositorio algum item de configuração 
+           Baseline 
+              Algumas versões do projeto ja foram testadas e validadas . 
+              Conjunto de itens de configuração 
+              Linha base de projeto 
+              Itens que possuem uma certa estabildiade
+              Uma alteração da baseline so e permitida se houver uma revisão formal para alteração 
